@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Custom weapons for the SHADOW WAR 1938 setting.
+  Source book: SW1938 (see custom_books.xml).
+  Values follow SR5 rules and the setting rule:
+  "the more common, the more realistic; the rarer, the more fantastic."
+-->
+<chummer>
+  <weapons>
+
+    <!-- ====== PISTOLS ====== -->
+    <weapon>
+      <id>c0528cce-8e47-46a7-85dd-9410b542e824</id>
+      <name>Luger P08</name>
+      <category>Light Pistols</category>
+      <type>Ranged</type>
+      <conceal>5</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>4R</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>d95126e1-3c92-4eba-9e68-02ebb2752ecc</id>
+      <name>Webley Mk VI</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>5</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>0</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>6(cy)</ammo>
+      <avail>4R</avail>
+      <cost>1100</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Pistols</useskill>
+    </weapon>
+
+    <!-- ====== RIFLES ====== -->
+    <weapon>
+      <id>be41d640-eeee-4ca1-b1e2-593e859309c8</id>
+      <name>Kar98k</name>
+      <category>Sporting Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>5R</avail>
+      <cost>1200</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>a794f83a-7c19-4adc-b3a6-ba97b48a77ab</id>
+      <name>Lee-Enfield SMLE</name>
+      <category>Sporting Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(m)</ammo>
+      <avail>5R</avail>
+      <cost>1250</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Longarms</useskill>
+    </weapon>
+
+    <!-- ====== SHOTGUN ====== -->
+    <weapon>
+      <id>68d2c6df-1102-472d-9ed4-a8f702d564ae</id>
+      <name>Remington Model 11</name>
+      <category>Shotguns</category>
+      <type>Ranged</type>
+      <conceal>7</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>13P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>4R</avail>
+      <cost>1300</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Longarms</useskill>
+    </weapon>
+
+    <!-- ====== MACHINE GUNS ====== -->
+    <weapon>
+      <id>50cbd3a9-0656-430d-a3d0-911492d9b79c</id>
+      <name>Browning M1918 BAR</name>
+      <category>Light Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>9</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF</mode>
+      <rc>2</rc>
+      <ammo>20(c)</ammo>
+      <avail>10R</avail>
+      <cost>3200</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>2c29da77-b0f5-4527-a78a-6eefcacbb801</id>
+      <name>MG34</name>
+      <category>Medium Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>2</rc>
+      <ammo>50(b)</ammo>
+      <avail>12F</avail>
+      <cost>4500</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Automatics</useskill>
+    </weapon>
+
+    <!-- ====== MELEE ====== -->
+    <weapon>
+      <id>ee8656df-e98b-4217-b3d0-9d86fc959f40</id>
+      <name>Bayonet</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>3</avail>
+      <cost>150</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <spec>Blades</spec>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>
+      <id>80a0c78a-033e-43b5-a98e-1fc62d31c20a</id>
+      <name>Entrenching Tool</name>
+      <category>Clubs</category>
+      <type>Melee</type>
+      <conceal>2</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>2</avail>
+      <cost>250</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <spec>Clubs</spec>
+      <useskill>Clubs</useskill>
+    </weapon>
+
+    <!-- ====== EXPERIMENTAL (TESLAPUNK) ====== -->
+    <weapon>
+      <id>84838170-fff8-499b-97c5-b972135c92ee</id>
+      <name>Tesla Rifle Mk. I</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>9S(e)</damage>
+      <ap>-8</ap>
+      <mode>SS</mode>
+      <rc>3</rc>
+      <ammo>6(c)</ammo>
+      <avail>20F</avail>
+      <cost>25000</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <useskill>Exotic Ranged Weapon</useskill>
+      <useskillspec>Tesla Weapons</useskillspec>
+      <weapontype>energy</weapontype>
+    </weapon>
+
+  </weapons>
+</chummer>
