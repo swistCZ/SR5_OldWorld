@@ -1,0 +1,26 @@
+# =========================================================================
+# GIT IGNORE — Projekt SHADOW WAR (Chummer 5e + custom setting)
+# Verzujeme POUZE naši vlastní práci, nikoliv binárky ani oficiální data.
+# =========================================================================
+
+# Zálohy ukládaných postav Chummeru
+*.chum5
+*.chum5e
+
+# Celá instalace Chummeru kromě našeho custom obsahu
+# (Vlastní balíčky žijí v Chummer5a/customdata/ a jsou povolené níže.)
+Chummer5a/*
+!Chummer5a/customdata/
+
+# Verzujeme jen NÁŠ custom balíček pro setting "Shadow War".
+# Ostatní (oficiální) balíčky v customdata/ necháváme mimo git.
+Chummer5a/customdata/*
+!Chummer5a/customdata/ShadowWar 1938/
+!Chummer5a/customdata/ShadowWar 1938/*
+
+# Dočasné a systémové soubory
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db

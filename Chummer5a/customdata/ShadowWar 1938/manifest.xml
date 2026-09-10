@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Custom package for the homebrew setting "SHADOW WAR - Europe on the eve
+  of World War II" (dieselpunk/teslapunk alternate history, SR5 rules).
+  All content lives here and is versioned in git.
+-->
+<manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../../../manifest.xsd">
+  <guid>de6bac27-015c-4b2c-b920-f123e0ea055c</guid>
+  <version>1</version>
+  <authors>
+    <author>
+      <name>Home Game Group</name>
+      <main>true</main>
+    </author>
+  </authors>
+  <descriptions>
+    <description>
+      <text>Custom ruleset for the homebrew SHADOW WAR setting (Europe on the eve of WWII, SR5 rules). Adds custom weapons, armor, gear, qualities, and more for use in the home game.</text>
+      <lang>en-us</lang>
+    </description>
+  </descriptions>
+</manifest>

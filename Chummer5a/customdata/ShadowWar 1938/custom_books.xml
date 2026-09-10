@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Source books for the SHADOW WAR custom package.
+  The <code> value (e.g. "SW1938") is used as the <source> tag on every
+  custom weapon/armor/gear/quality record so the content can be toggled
+  as a single source in Chummer (Options -> Character Settings).
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema books.xsd">
+  <books>
+    <book>
+      <id>51f30a4a-e3b1-47ac-8e60-ee393982ba2e</id>
+      <name>Shadow War 1938 Core</name>
+      <code>SW1938</code>
+    </book>
+  </books>
+</chummer>
