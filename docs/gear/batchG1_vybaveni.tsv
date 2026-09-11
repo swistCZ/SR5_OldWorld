@@ -1,0 +1,34 @@
+Číslo	Vybavení	SW1938 kategorie	Popis	Země	Rok	Typ	Role	Rating	Avail	Cost	CostFor	Vlastnost	Poznámka
+1	Polní telefon	SW1938 – Elektronika	Přenosný telefon s kabelem.	—	1915	Reálná	Polní komunikace	0	4	150	-	-	Spolehlivý, ale potřebuje kabel.
+2	Telegrafní klíč	SW1938 – Elektronika	Klíč pro morseovku.	—	1900	Reálná	Telegrafie	0	3	50	-	-	Základní komunikace na dálku.
+3	Polní vysílačka	SW1938 – Elektronika	Přenosná radiostanice krátkého dosahu.	—	1938	Reálná	Rádiová komunikace	0	6R	500	-	-	Základní rádiové spojení.
+4	Přenosná radiostanice	SW1938 – Elektronika	Výkonnější přenosná radiostanice.	—	1938	Reálná	Rádiová komunikace (delší dosah)	0	7R	800	-	-	Delší dosah, těžší.
+5	Rádiový zaměřovač	SW1938 – Elektronika	Zaměřovač cizí radiové komunikace.	—	1938	Prototyp	Rádiový průzkum	0	8R	1200	-	detekce vysílání	Odhalí nepřátelské vysílačky.
+6	Rušička	SW1938 – Elektronika	Širokopásmová rádiová rušička.	—	1938	Prototyp	Rušení komunikace	0	10F	2000	-	ruší rádio	Velká, energeticky náročná.
+7	Zvětšovací sklo	SW1938 – Optika	Lupa pro detailní práci.	—	1900	Reálná	Detailní práce	0	2	30	-	+1 na detailní zkoumání	Malé a nenápadné.
+8	Dalekohled	SW1938 – Optika	Polní dalekohled.	—	1900	Reálná	Pozorování na dálku	0	3	100	-	+2 Perception (dálka)	Základní průzkum.
+9	Dálkoměr	SW1938 – Optika	Optický dálkoměr.	—	1938	Reálná	Zaměřování	0	5R	400	-	+1 na střelbu (dálka)	Pomáhá odstřelovačům.
+10	Fotoaparát	SW1938 – Optika	Polní fotoaparát.	—	1930	Reálná	Dokumentace	0	4	200	-	-	Pro špionáž a dokumentaci.
+11	Antiseptikum	SW1938 – Zdravotnictví & chemie	Dezinfekce a obvazy.	—	1900	Reálná	První pomoc	0	2	20	-	-	Základní lékařská potřeba.
+12	Lékárnička	SW1938 – Zdravotnictví & chemie	Polní lékařská sada.	—	1900	Reálná	Lékařská pomoc	0	4	200	-	+2 na First Aid	Potřebná pro ošetření.
+13	Morfin	SW1938 – Zdravotnictví & chemie	Lék proti bolesti.	—	1900	Reálná	Tišení bolesti	0	6R	50	-	-	Zmírní bolest a postihy.
+14	Plynová maska	SW1938 – Zdravotnictví & chemie	Ochranná maska proti plynům.	—	1915	Reálná	Ochrana proti plynům	0	5R	150	-	imunita vůči plynům	Kritická pro zákopovou válku.
+15	Detektor plynu	SW1938 – Zdravotnictví & chemie	Chemický detektor bojových plynů.	—	1938	Prototyp	Detekce plynů	0	6R	300	-	detekce plynu	Varování před útokem plynem.
+16	Pervitin	SW1938 – Zdravotnictví & chemie	Stimulant pro bojovou výdrž.	DE	1938	Reálná	Stimulant	0	8F	100	-	+2 na odolnost (dočasně)	Návykový; vojenský stimulant.
+17	Sada nářadí	SW1938 – Nářadí & survival	Základní mechanické nářadí.	—	1900	Reálná	Opravy a sabotáž	0	3	150	-	+2 na opravy	Pro mechaniku a demolice.
+18	Lano	SW1938 – Nářadí & survival	Konopné lano 20 m.	—	1900	Reálná	Šplhání	0	2	30	-	-	Základní horolezecká výbava.
+19	Svítilna	SW1938 – Nářadí & survival	Ruční elektrická svítilna.	—	1900	Reálná	Osvětlení	0	2	20	-	-	Nutná v temnotě.
+20	Kompas	SW1938 – Nářadí & survival	Orientace v terénu.	—	1900	Reálná	Navigace	0	2	40	-	-	Základní orientace.
+21	Stan	SW1938 – Nářadí & survival	Polní stan pro dvě osoby.	—	1900	Reálná	Přístřeší	0	2	80	-	-	Odpočinek v terénu.
+22	Polní výbava	SW1938 – Nářadí & survival	Ešus, příbor, polní láhev.	—	1900	Reálná	Polní stravování	0	1	20	-	-	Základní výbava vojáka.
+23	Zapalovač	SW1938 – Nářadí & survival	Benziňový zapalovač.	—	1920	Reálná	Zapalování ohně	0	1	10	-	-	Malý a užitečný.
+24	Rituální potřeby	SW1938 – Okultní & teslapunk	Křída, svíce, symboly.	—	1900	Reálná	Okultní rituály	0	4	50	-	-	Pro rituály a ochranu.
+25	Talisman / amulet	SW1938 – Okultní & teslapunk	Ochranný amulet.	—	1900	Reálná	Ochrana proti duchům	0	6R	300	-	+1 vs duchové	Víra a ochrana.
+26	Grimoár	SW1938 – Okultní & teslapunk	Kniha okultních znalostí.	—	1900	Reálná	Okultní znalosti	0	8F	1500	-	+2 na okultní znalosti	Vzácný; zakázaný.
+27	Teslapunkový detektor magie	SW1938 – Okultní & teslapunk	Přístroj detekující magické jevy.	CS	1938	Setting	Detekce magie	0	14F	5000	-	detekce magie	Klíčový pro okultní průzkum.
+28	Teslapunkové komponenty	SW1938 – Okultní & teslapunk	Náhradní cívky, elektronky, vodiče.	CS	1938	Setting	Opravy teslapunku	0	12F	1000	-	-	Nutné pro opravy aparatur.
+29	Rušička duchů	SW1938 – Okultní & teslapunk	Okultní aparatura rušící manifestaci entit.	DE	1938	Setting	Rušení duchů	0	16F	6000	-	ruší manifestaci duchů	Velmi vzácná a nebezpečná.
+30	Padělané doklady	SW1938 – Dokumenty & různé	Falešné průkazy a cestovní dokumenty.	—	1930	Reálná	Infiltrace	0	10F	1000	-	-	Kvalita dle ceny.
+31	Hodinky	SW1938 – Dokumenty & různé	Kapesní nebo náramkové hodinky.	—	1900	Reálná	Čas	0	3	150	-	-	Společenský doplněk.
+32	Mapy a plány	SW1938 – Dokumenty & různé	Vojenské mapy a plány.	—	1900	Reálná	Navigace a plánování	0	4R	200	-	+1 na navigaci	Užitečné pro operace.
+33	Peníze	SW1938 – Dokumenty & různé	Hotovost nebo valuty.	—	1900	Reálná	Platidlo	0	0	Variable(10-100000)	-	-	Běžná měna dle země.

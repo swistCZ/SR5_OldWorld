@@ -1,0 +1,21 @@
+Číslo	Zbroj	SW1938 kategorie	Popis	Země	Rok	Typ	Role	Armor	ArmorOverride	Kapacita	Avail	Cost	Bonus	Poznámka
+1	Civilní oblek	SW1938 – Civilní oděv	Běžný městský oblek nebo kostým.	—	1930	Reálná	Civilní oděv	0	-	2	0	Variable(50-500)	-	Bez ochrany; základní vzhled.
+2	Pracovní oděv	SW1938 – Civilní oděv	Dělnícký oděv, montérky.	—	1930	Reálná	Pracovní oděv	0	-	0	0	20	-	Bez ochrany; nenápadný.
+3	Dámské šaty	SW1938 – Civilní oděv	Společenské šaty.	—	1930	Reálná	Civilní oděv	0	-	1	0	Variable(30-1000)	-	Bez ochrany; společenský vzhled.
+4	Zimní kabát	SW1938 – Civilní oděv	Těžký vlněný kabát.	—	1930	Reálná	Zimní oděv	3	+1	1	0	100	-	Svrchní vrstva; při vrstvení +1.
+5	Kombinéza / overal	SW1938 – Civilní oděv	Jednoduchá pracovní kombinéza.	—	1930	Reálná	Pracovní oděv	2	-	1	0	50	-	Minimální ochrana; odolná.
+6	Kožená bunda	SW1938 – Kožená ochrana	Těžká kožená bunda.	—	1930	Reálná	Lehká kožená ochrana	6	-	3	2	250	-	Účinná proti pistolím; nenápadná.
+7	Kožený duster	SW1938 – Kožená ochrana	Dlouhý kožený kabát.	—	1930	Reálná	Kožená ochrana (duster)	8	+3	4	3	450	-	Svrchní vrstva; při vrstvení +3.
+8	Motorkářská kombinéza	SW1938 – Kožená ochrana	Zpevněná kožená kombinéza.	—	1930	Reálná	Ochranná kombinéza	9	-	2	4	500	-	Vyšší ochrana, málo modů.
+9	Vojenská uniforma	SW1938 – Vojenská výstroj	Standardní polní uniforma.	—	1938	Reálná	Vojenská uniforma	5	-	2	3	120	-	Lehká ochrana; součást výstroje.
+10	Lehká přilba (Brodie)	SW1938 – Vojenská výstroj	Placatá ocelová přilba.	UK	1915	Reálná	Lehká přilba	+2	-	2	4	80	-	Přilba (bonus k zbroji).
+11	Těžká přilba (Stahlhelm)	SW1938 – Vojenská výstroj	Těžká ocelová přilba.	DE	1935	Reálná	Těžká přilba	+3	-	2	5	150	-	Vyšší bonus k zbroji; těžší.
+12	Důstojnická výstroj	SW1938 – Vojenská výstroj	Kvalitní důstojnická uniforma.	—	1938	Reálná	Důstojnická výstroj	5	-	4	5	350	-	Více modů; společenský vzhled.
+13	Výsadkářský postroj	SW1938 – Vojenská výstroj	Zpevněná výstroj výsadkáře.	—	1936	Reálná	Výsadkářská výstroj	7	-	3	6	400	-	Vyšší ochrana pro výsadkáře.
+14	Experimentální flak vesta	SW1938 – Ochranná zbroj	Raná neprůstřelná vesta.	—	1938	Prototyp	Flak vesta	12	-	4	8F	900	-	Ochrana na úrovni Armor Jacket; chrání trup.
+15	Ocelový pancíř (SN-42)	SW1938 – Ochranná zbroj	Ocelový hrudní pancíř pro útočné oddíly.	SU	1942	Prototyp	Ocelový pancíř	15	-	3	10F	700	-	Nejvyšší ochrana (Full Body Armor); těžký a nápadný.
+16	Balistický štít	SW1938 – Ochranná zbroj	Přenosný pancéřovaný štít.	—	1937	Prototyp	Balistický štít	+6	-	5	10R	1100	-	Štít (bonus k zbroji); kryje i spolubojovníky.
+17	Neprůstřelný plášť	SW1938 – Ochranná zbroj	Zpevněný dlouhý plášť.	—	1938	Prototyp	Neprůstřelný plášť	12	+4	5	9F	1000	-	Svrchní vrstva; při vrstvení +4.
+18	Faradayův oblek	SW1938 – Tesla & okultní ochrana	Kovově tkaný ochranný oblek proti výbojům.	CS	1938	Setting	Ochrana proti elektřině	9	-	4	12F	2500	+3 vs elektřina	Chrání před tesla výboji; součást teslapunku.
+19	Okultní ochranný plášť	SW1938 – Tesla & okultní ochrana	Plášť s ochrannými symboly a stříbrem.	DE	1938	Setting	Ochrana proti duchům	8	+3	5	14F	3000	+2 vs duchové	Svrchní vrstva; při vrstvení +3, chrání před entitami.
+20	Teslapunkový ochranný postroj	SW1938 – Tesla & okultní ochrana	Pokročilý postroj s měděnými cívkami a izolací.	CS	1938	Setting	Ochrana proti elektřině (těžká)	10	-	5	16F	5000	+4 vs elektřina, +2 vs tesla	Nejlepší ochrana proti tesla zbraním; velmi vzácný.

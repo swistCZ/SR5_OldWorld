@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SHADOW WAR 1938 - custom armor (generated from docs/armor/*.tsv).
+  Custom categories "SW1938 - ..."; armoroverride enables layering.
+  Do not edit by hand; edit the TSV and re-run build_armor_xml.py.
+-->
+<chummer>
+  <categories>
+    <category blackmarket="Armor">SW1938 – Civilní oděv</category>
+    <category blackmarket="Armor">SW1938 – Kožená ochrana</category>
+    <category blackmarket="Armor">SW1938 – Ochranná zbroj</category>
+    <category blackmarket="Armor">SW1938 – Tesla &amp; okultní ochrana</category>
+    <category blackmarket="Armor">SW1938 – Vojenská výstroj</category>
+  </categories>
+  <armors>
+    <armor>
+      <id>81733da1-b935-512b-9b67-24eebb437583</id>
+      <name>Civilní oblek</name>
+      <category>SW1938 – Civilní oděv</category>
+      <armor>0</armor>
+      <armorcapacity>2</armorcapacity>
+      <avail>0</avail>
+      <cost>Variable(50-500)</cost>
+      <source>SW1938</source>
+      <page>1</page>
+    </armor>
+    <armor>
+      <id>b5d7594f-8842-5027-ae91-822a99e97197</id>
+      <name>Pracovní oděv</name>
+      <category>SW1938 – Civilní oděv</category>
+      <armor>0</armor>
+      <armorcapacity>0</armorcapacity>
+      <avail>0</avail>
+      <cost>20</cost>
+      <source>SW1938</source>
+      <page>2</page>
+    </armor>
+    <armor>
+      <id>d286d770-9b51-554a-9e37-e27a8249993b</id>
+      <name>Dámské šaty</name>
+      <category>SW1938 – Civilní oděv</category>
+      <armor>0</armor>
+      <armorcapacity>1</armorcapacity>
+      <avail>0</avail>
+      <cost>Variable(30-1000)</cost>
+      <source>SW1938</source>
+      <page>3</page>
+    </armor>
+    <armor>
+      <id>5c52746b-54eb-5e8c-adb1-3dbd2e69dedd</id>
+      <name>Zimní kabát</name>
+      <category>SW1938 – Civilní oděv</category>
+      <armor>3</armor>
+      <armoroverride>+1</armoroverride>
+      <armorcapacity>1</armorcapacity>
+      <avail>0</avail>
+      <cost>100</cost>
+      <source>SW1938</source>
+      <page>4</page>
+    </armor>
+    <armor>
+      <id>308a887a-f38c-5816-8a13-4c311fdb3a78</id>
+      <name>Kombinéza / overal</name>
+      <category>SW1938 – Civilní oděv</category>
+      <armor>2</armor>
+      <armorcapacity>1</armorcapacity>
+      <avail>0</avail>
+      <cost>50</cost>
+      <source>SW1938</source>
+      <page>5</page>
+    </armor>
+    <armor>
+      <id>a865708f-72b0-577c-ba4c-1fd5cc232c61</id>
+      <name>Kožená bunda</name>
+      <category>SW1938 – Kožená ochrana</category>
+      <armor>6</armor>
+      <armorcapacity>3</armorcapacity>
+      <avail>2</avail>
+      <cost>250</cost>
+      <source>SW1938</source>
+      <page>6</page>
+    </armor>
+    <armor>
+      <id>0d9f789f-3052-5f21-80c9-b61e31a45ac0</id>
+      <name>Kožený duster</name>
+      <category>SW1938 – Kožená ochrana</category>
+      <armor>8</armor>
+      <armoroverride>+3</armoroverride>
+      <armorcapacity>4</armorcapacity>
+      <avail>3</avail>
+      <cost>450</cost>
+      <source>SW1938</source>
+      <page>7</page>
+    </armor>
+    <armor>
+      <id>99702137-5023-5fd9-a865-e4291bbdf39a</id>
+      <name>Motorkářská kombinéza</name>
+      <category>SW1938 – Kožená ochrana</category>
+      <armor>9</armor>
+      <armorcapacity>2</armorcapacity>
+      <avail>4</avail>
+      <cost>500</cost>
+      <source>SW1938</source>
+      <page>8</page>
+    </armor>
+    <armor>
+      <id>b7cd09f0-aa05-5bc0-8be1-1f4ac4b724cf</id>
+      <name>Vojenská uniforma</name>
+      <category>SW1938 – Vojenská výstroj</category>
+      <armor>5</armor>
+      <armorcapacity>2</armorcapacity>
+      <avail>3</avail>
+      <cost>120</cost>
+      <source>SW1938</source>
+      <page>9</page>
+    </armor>
+    <armor>
+      <id>e6c1f2bb-6c60-5197-b721-74fb926f5655</id>
+      <name>Lehká přilba (Brodie)</name>
+      <category>SW1938 – Vojenská výstroj</category>
+      <armor>+2</armor>
+      <armorcapacity>2</armorcapacity>
+      <avail>4</avail>
+      <cost>80</cost>
+      <source>SW1938</source>
+      <page>10</page>
+    </armor>
+    <armor>
+      <id>b1d9d82d-4ad8-5f93-b874-4b9cf32d90e7</id>
+      <name>Těžká přilba (Stahlhelm)</name>
+      <category>SW1938 – Vojenská výstroj</category>
+      <armor>+3</armor>
+      <armorcapacity>2</armorcapacity>
+      <avail>5</avail>
+      <cost>150</cost>
+      <source>SW1938</source>
+      <page>11</page>
+    </armor>
+    <armor>
+      <id>b08ba8f1-2353-509b-af9c-995bacd135c3</id>
+      <name>Důstojnická výstroj</name>
+      <category>SW1938 – Vojenská výstroj</category>
+      <armor>5</armor>
+      <armorcapacity>4</armorcapacity>
+      <avail>5</avail>
+      <cost>350</cost>
+      <source>SW1938</source>
+      <page>12</page>
+    </armor>
+    <armor>
+      <id>a60c2886-3d3b-58e6-bfa1-fae5bf48ef0b</id>
+      <name>Výsadkářský postroj</name>
+      <category>SW1938 – Vojenská výstroj</category>
+      <armor>7</armor>
+      <armorcapacity>3</armorcapacity>
+      <avail>6</avail>
+      <cost>400</cost>
+      <source>SW1938</source>
+      <page>13</page>
+    </armor>
+    <armor>
+      <id>32f30c87-53ad-546f-8804-fabe07496f7c</id>
+      <name>Experimentální flak vesta</name>
+      <category>SW1938 – Ochranná zbroj</category>
+      <armor>12</armor>
+      <armorcapacity>4</armorcapacity>
+      <avail>8F</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>14</page>
+    </armor>
+    <armor>
+      <id>31d62f44-c1a8-5e47-8541-15fd95fabd61</id>
+      <name>Ocelový pancíř (SN-42)</name>
+      <category>SW1938 – Ochranná zbroj</category>
+      <armor>15</armor>
+      <armorcapacity>3</armorcapacity>
+      <avail>10F</avail>
+      <cost>700</cost>
+      <source>SW1938</source>
+      <page>15</page>
+    </armor>
+    <armor>
+      <id>6ac68e43-ff28-5a40-ac92-7f8d07c28d84</id>
+      <name>Balistický štít</name>
+      <category>SW1938 – Ochranná zbroj</category>
+      <armor>+6</armor>
+      <armorcapacity>5</armorcapacity>
+      <avail>10R</avail>
+      <cost>1100</cost>
+      <source>SW1938</source>
+      <page>16</page>
+    </armor>
+    <armor>
+      <id>ba0de1fd-8c31-5057-ae75-76eca5349ca8</id>
+      <name>Neprůstřelný plášť</name>
+      <category>SW1938 – Ochranná zbroj</category>
+      <armor>12</armor>
+      <armoroverride>+4</armoroverride>
+      <armorcapacity>5</armorcapacity>
+      <avail>9F</avail>
+      <cost>1000</cost>
+      <source>SW1938</source>
+      <page>17</page>
+    </armor>
+    <armor>
+      <id>fdc62c05-6c80-5085-a2eb-3a929d27cedb</id>
+      <name>Faradayův oblek</name>
+      <category>SW1938 – Tesla &amp; okultní ochrana</category>
+      <armor>9</armor>
+      <armorcapacity>4</armorcapacity>
+      <avail>12F</avail>
+      <cost>2500</cost>
+      <source>SW1938</source>
+      <page>18</page>
+    </armor>
+    <armor>
+      <id>9f8fc566-7d27-5d86-acfb-362f353b2fd1</id>
+      <name>Okultní ochranný plášť</name>
+      <category>SW1938 – Tesla &amp; okultní ochrana</category>
+      <armor>8</armor>
+      <armoroverride>+3</armoroverride>
+      <armorcapacity>5</armorcapacity>
+      <avail>14F</avail>
+      <cost>3000</cost>
+      <source>SW1938</source>
+      <page>19</page>
+    </armor>
+    <armor>
+      <id>43cb4b9a-699c-5f15-a3b5-2f073baddd88</id>
+      <name>Teslapunkový ochranný postroj</name>
+      <category>SW1938 – Tesla &amp; okultní ochrana</category>
+      <armor>10</armor>
+      <armorcapacity>5</armorcapacity>
+      <avail>16F</avail>
+      <cost>5000</cost>
+      <source>SW1938</source>
+      <page>20</page>
+    </armor>
+  </armors>
+</chummer>
