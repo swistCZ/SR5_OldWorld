@@ -1,0 +1,68 @@
+Číslo	Vozidlo	SW1938 kategorie	Popis	Země	Rok	Typ	Role	Handling	Speed	Accel	Body	Armor	Sensor	Seats	Pilot	Avail	Cost	Poznámka
+1	BMW R12	SW1938 – Motocykly	Civilní těžký motocykl.	DE	1935	Reálná	Civilní motocykl	4/3	3	2	5	3	1	1	1	4R	4000	Běžný civilní motocykl.
+2	DKW RT 125	SW1938 – Motocykly	Lehký lidový motocykl.	DE	1939	Reálná	Lehký motocykl	5/4	3	3	4	2	1	1	1	3R	2500	Lehký a obratný; levný.
+3	Harley-Davidson WLA	SW1938 – Motocykly	Vojenský motocykl.	US	1940	Prototyp	Vojenský motocykl	4/3	4	2	6	4	1	1	1	5R	5500	Robustní vojenský stroj.
+4	Zündapp KS 750	SW1938 – Motocykly	Těžký vojenský motocykl s pohonem zadního kola.	DE	1941	Prototyp	Těžký vojenský motocykl	4/3	3	2	6	3	1	2	1	5R	6000	Pohon zadního kola; tažný.
+5	Zündapp s postranním vozíkem	SW1938 – Motocykly	Motocykl s postranním vozíkem.	DE	1941	Prototyp	Motocykl s vozíkem	3/2	3	1	7	4	1	3	1	6R	8000	Veze 3 osoby; stabilní.
+6	Motocykl s kulometem	SW1938 – Motocykly	Motocykl s lafetovaným kulometem ve vozíku.	DE	1941	Prototyp	Ozbrojený motocykl	3/2	3	1	7	5	1	2	1	8F	12000	Kulomet ve vozíku; vojenský.
+7	Kettenkrad (Sd.Kfz 2)	SW1938 – Motocykly	Polopásý motocykl pro těžký terén.	DE	1941	Prototyp	Polopásý motocykl	4/3	3	2	7	4	1	2	1	8R	10000	Pásy vzadu; výborný v terénu.
+8	Goliath	SW1938 – Motocykly	Dálkově řízené pásové vozidlo s náloží.	DE	1942	Prototyp	Dálkově řízená nálož	3	2	1	3	4	0	0	0	12F	5000	Bezpilotní nálož; velmi vzácný.
+9	Opel Olympia	SW1938 – Osobní auta	Civilní rodinný sedan.	DE	1935	Reálná	Civilní sedan	4/4	3	2	10	3	1	4	1	3R	6000	Běžné civilní auto.
+10	Mercedes-Benz 770	SW1938 – Osobní auta	Luxusní reprezentativní limuzína.	DE	1930	Reálná	Luxusní limuzína	4/4	3	2	12	4	2	5	1	6R	25000	Reprezentativní; pancéřovaná verze.
+11	Kübelwagen	SW1938 – Osobní auta	Vojenský terénní vůz.	DE	1940	Prototyp	Vojenský terénní vůz	4/3	3	2	9	3	1	4	1	5R	5000	Lehký terénní; vojenský.
+12	Willys MB	SW1938 – Osobní auta	Legendární americký džíp.	US	1941	Prototyp	Terénní džíp	5/4	3	3	10	4	1	4	1	5R	7000	Obratný a spolehlivý.
+13	Horch 108	SW1938 – Osobní auta	Těžký štábní terénní vůz.	DE	1938	Reálná	Štábní vůz	4/3	3	2	11	4	2	5	1	6R	12000	Pro štáb a důstojníky.
+14	Tatra 87	SW1938 – Osobní auta	Aerodynamická československá limuzína.	CS	1937	Reálná	Rychlá limuzína	5/4	4	3	10	3	1	4	1	5R	15000	Rychlá a elegantní; česká.
+15	KdF-Wagen	SW1938 – Osobní auta	Lidový vůz (budoucí Volkswagen).	DE	1938	Prototyp	Lidový vůz	4/3	3	2	9	3	1	4	1	6R	4000	Lidový vůz; prototyp.
+16	Policejní auto	SW1938 – Osobní auta	Policejní hlídkový vůz.	—	1938	Reálná	Policejní vůz	4/4	3	2	10	4	2	4	1	4R	8000	Hlídkový vůz; siréna.
+17	Ambulance	SW1938 – Osobní auta	Polní sanitní vůz.	—	1938	Reálná	Sanitní vůz	3/3	2	1	12	3	1	6	1	5R	9000	Převoz raněných.
+18	Citroën P17	SW1938 – Osobní auta	Polopásý terénní vůz.	FR	1937	Prototyp	Polopásý vůz	3/2	3	1	11	4	1	4	1	7R	10000	Polopásý; experimentální.
+19	Opel Blitz	SW1938 – Nákladní auta	Standardní nákladní auto.	DE	1937	Reálná	Nákladní auto	3/3	2	1	15	4	1	3	1	5R	12000	Základní logistika.
+20	GAZ-AAA	SW1938 – Nákladní auta	Sovětské nákladní auto.	SU	1936	Reálná	Nákladní auto	3/2	2	1	14	3	1	3	1	5R	9000	Robustní; jednoduché.
+21	Sd.Kfz 251	SW1938 – Nákladní auta	Polopásý obrněný transportér.	DE	1939	Prototyp	Obrněný transportér	3/3	3	2	16	8	2	10	1	8F	25000	Veze družstvo; pancéřovaný.
+22	Sd.Kfz 7	SW1938 – Nákladní auta	Polopásý dělostřelecký tahač.	DE	1938	Reálná	Dělostřelecký tahač	3/2	3	1	16	5	1	8	1	8R	20000	Tahá děla; silný.
+23	Lanz Bulldog	SW1938 – Nákladní auta	Těžký zemědělský traktor.	DE	1921	Reálná	Traktor	2/2	1	1	15	3	1	2	1	4R	10000	Pomalý, ale silný.
+24	Cisternový vůz	SW1938 – Nákladní auta	Nákladní cisterna na palivo.	—	1938	Reálná	Palivová cisterna	3/3	2	1	16	4	1	2	1	6R	15000	Převoz paliva; výbušný náklad.
+25	Muniční vůz	SW1938 – Nákladní auta	Nákladní vůz s municí.	—	1938	Reálná	Muniční vůz	3/3	2	1	15	5	1	2	1	7R	14000	Převoz munice.
+26	Pontonový vůz	SW1938 – Nákladní auta	Vůz pro převoz pontonů a mostů.	—	1938	Reálná	Ženijní vůz	3/2	2	1	17	4	1	4	1	8R	18000	Stavba mostů; ženijní.
+27	Panzer II	SW1938 – Obrněná vozidla	Lehký tank.	DE	1936	Reálná	Lehký tank	3/2	3	2	18	12	2	3	1	12F	80000	Lehký a rychlý; slabší pancíř.
+28	Panzer IV	SW1938 – Obrněná vozidla	Střední tank.	DE	1939	Prototyp	Střední tank	3/2	3	2	22	16	3	5	1	14F	150000	Univerzální střední tank.
+29	T-26	SW1938 – Obrněná vozidla	Sovětský lehký tank.	SU	1931	Reálná	Lehký tank	3/2	3	2	18	10	2	3	1	12F	70000	Početný sovětský tank.
+30	Matilda II	SW1938 – Obrněná vozidla	Britský pěchotní tank s tlustým pancířem.	UK	1939	Prototyp	Pěchotní tank	2/2	2	1	20	18	2	4	1	14F	130000	Velmi silný pancíř; pomalý.
+31	Char B1	SW1938 – Obrněná vozidla	Francouzský těžký tank.	FR	1936	Reálná	Těžký tank	2/2	2	1	21	17	2	4	1	14F	140000	Silný pancíř; pomalý.
+32	T-34	SW1938 – Obrněná vozidla	Revoluční sovětský střední tank.	SU	1940	Prototyp	Střední tank	3/3	4	3	24	18	3	4	1	16F	180000	Šikmý pancíř; převratný.
+33	Tiger I	SW1938 – Obrněná vozidla	Německý těžký tank.	DE	1942	Prototyp	Těžký tank	3/2	3	2	26	22	3	5	1	18F	350000	Legendární pancíř a dělo; pomalý.
+34	Sd.Kfz 231	SW1938 – Obrněná vozidla	Těžké obrněné průzkumné vozidlo.	DE	1932	Reálná	Obrněné auto	4/3	4	3	16	10	2	4	1	12F	60000	Rychlé; osmikolové.
+35	Flakpanzer	SW1938 – Obrněná vozidla	Samohybný protiletadlový kanón.	DE	1941	Prototyp	Protiletadlový vůz	3/3	3	2	20	12	3	4	1	14F	120000	Proti letadlům.
+36	StuG III	SW1938 – Obrněná vozidla	Samohybné útočné dělo.	DE	1940	Prototyp	Útočné dělo	3/3	3	2	21	15	2	4	1	14F	130000	Bez věže; nižší silueta.
+37	Sd.Kfz 247	SW1938 – Obrněná vozidla	Velitelské obrněné vozidlo.	DE	1937	Reálná	Velitelské vozidlo	3/3	3	2	15	8	3	4	1	11F	50000	Velení; rádiové vybavení.
+38	Panzerwerfer	SW1938 – Obrněná vozidla	Samohybný raketomet.	DE	1942	Prototyp	Raketomet	3/2	3	2	18	10	2	3	1	15F	100000	Salvový raketomet; prototyp.
+39	Flammpanzer	SW1938 – Obrněná vozidla	Tank s plamenometem.	DE	1941	Prototyp	Plamenometný tank	3/3	3	2	18	11	2	3	1	15F	90000	Plamenomet; obávaný.
+40	Bf 109	SW1938 – Letadla	Německá stíhačka.	DE	1937	Reálná	Stíhačka	5/4	7	3	10	4	3	1	2	12F	90000	Rychlá a obratná; hlavní stíhačka.
+41	Spitfire	SW1938 – Letadla	Britská stíhačka.	UK	1938	Reálná	Stíhačka	5/4	7	3	10	4	3	1	2	12F	95000	Elegantní a obratná.
+42	Hurricane	SW1938 – Letadla	Britská stíhačka.	UK	1937	Reálná	Stíhačka	5/4	6	3	10	4	3	1	2	11F	80000	Robustní; práce pro RAF.
+43	P-40 Warhawk	SW1938 – Letadla	Americká stíhačka.	US	1939	Reálná	Stíhačka	5/4	6	3	10	4	3	1	2	12F	85000	Odolná; široce používaná.
+44	A6M Zero	SW1938 – Letadla	Japonská extrémně obratná stíhačka.	JP	1940	Prototyp	Stíhačka	6/5	6	3	9	2	3	1	2	13F	90000	Nejvratnější, ale křehká.
+45	He 111	SW1938 – Letadla	Německý střední bombardér.	DE	1936	Reálná	Bombardér	3/2	5	2	18	6	3	5	2	14F	200000	Střední bombardér.
+46	B-17 Flying Fortress	SW1938 – Letadla	Americký těžký bombardér.	US	1938	Prototyp	Těžký bombardér	2/2	5	1	22	8	4	10	3	16F	350000	Létající pevnost; silně vyzbrojený.
+47	Ju 52	SW1938 – Letadla	Německý dopravní letadlo.	DE	1932	Reálná	Dopravní letadlo	3/2	4	2	18	4	2	17	2	12F	150000	Transport; i výsadkový.
+48	Fieseler Storch	SW1938 – Letadla	Průzkumný a spojovací letoun STOL.	DE	1936	Reálná	Průzkumný letoun	4/4	3	3	8	2	2	2	1	10F	60000	Krátký vzlet a přistání.
+49	de Havilland Mosquito	SW1938 – Letadla	Rychlý dřevěný britský letoun.	UK	1941	Prototyp	Rychlý bombardér	5/4	7	3	12	3	4	2	2	15F	250000	Dřevěná konstrukce; velmi rychlý.
+50	Me 262	SW1938 – Letadla	První proudová stíhačka.	DE	1944	Prototyp	Proudová stíhačka	5/4	9	4	12	4	4	1	3	20F	500000	Proudový pohon; převratný prototyp.
+51	Hindenburg (LZ 129)	SW1938 – Vzducholodě	Obří dopravní vzducholoď.	DE	1936	Reálná	Dopravní vzducholoď	2/1	2	1	25	2	2	50	3	16F	800000	Obří vzducholoď; luxusní.
+52	Graf Zeppelin (LZ 127)	SW1938 – Vzducholodě	Dálková výzkumná vzducholoď.	DE	1928	Reálná	Výzkumná vzducholoď	2/1	2	1	24	2	2	40	3	15F	600000	Dálkové lety; výzkum.
+53	Průzkumná vzducholoď	SW1938 – Vzducholodě	Malá neztužená vzducholoď (blimp).	—	1938	Reálná	Průzkumná vzducholoď	3/2	2	1	12	1	2	4	1	10F	80000	Pomalá; pozorovací.
+54	Torpédový člun (S-boot)	SW1938 – Lodě	Rychlý torpédový člun.	DE	1935	Reálná	Torpédový člun	4/3	5	3	14	6	3	20	2	14F	200000	Rychlý; torpéda.
+55	Hlídkový člun	SW1938 – Lodě	Pobřežní hlídkový člun.	UK	1938	Reálná	Hlídkový člun	4/3	4	2	13	5	2	12	1	12F	120000	Hlídkování; kulomety.
+56	Nákladní loď	SW1938 – Lodě	Civilní nákladní loď.	—	1930	Reálná	Nákladní loď	2/2	2	1	20	4	1	30	2	10R	300000	Převoz nákladu.
+57	Rybářská loď	SW1938 – Lodě	Malá rybářská loď.	—	1930	Reálná	Rybářská loď	3/3	2	1	12	3	1	6	1	4R	40000	Civilní; nenápadná.
+58	Výsadková loď	SW1938 – Lodě	Vyloďovací člun.	UK	1940	Prototyp	Vyloďovací člun	3/2	3	1	14	4	1	30	1	12F	90000	Vyloďování vojska.
+59	Minolovka	SW1938 – Lodě	Protiminová loď.	UK	1938	Reálná	Minolovka	3/2	3	1	15	5	2	20	2	12F	150000	Odminování.
+60	Říční člun	SW1938 – Lodě	Lehký říční člun.	—	1930	Reálná	Říční člun	4/4	3	2	8	2	1	6	1	3R	15000	Říční a jezerní.
+61	Civilní jachta	SW1938 – Lodě	Soukromá jachta.	—	1930	Reálná	Jachta	4/3	3	2	12	2	1	8	1	6R	80000	Luxusní; civilní.
+62	Type VII (U-boat)	SW1938 – Ponorky	Německá oceánská ponorka.	DE	1936	Reálná	Oceánská ponorka	3/2	3	1	20	8	3	44	3	16F	500000	Torpéda; hrozba konvojům.
+63	Type II (pobřežní)	SW1938 – Ponorky	Malá pobřežní ponorka.	DE	1935	Reálná	Pobřežní ponorka	3/2	3	1	12	6	2	25	2	14F	200000	Menší; pobřežní operace.
+64	Neger (miniponorka)	SW1938 – Ponorky	Jednomístná miniponorka s torpédem.	DE	1943	Prototyp	Miniponorka	3/2	2	1	6	3	1	1	1	14F	30000	Sebevražedná; prototyp.
+65	Focke-Wulf Fw 61	SW1938 – Vrtulníky	První praktický vrtulník.	DE	1936	Prototyp	Vrtulník	4/4	3	2	8	2	2	2	2	16F	120000	Experimentální; převratný.
+66	Cierva C.30	SW1938 – Vrtulníky	Autogyra.	UK	1934	Prototyp	Autogyra	4/3	3	2	8	2	2	2	1	14F	80000	Rotor bez motoru; bezpečná.
+67	Focke-Achgelis Fa 223	SW1938 – Vrtulníky	Transportní vrtulník.	DE	1940	Prototyp	Transportní vrtulník	4/4	3	2	12	3	2	4	2	18F	200000	První transportní vrtulník.

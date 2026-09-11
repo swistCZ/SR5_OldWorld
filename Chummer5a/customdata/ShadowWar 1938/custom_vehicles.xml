@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SHADOW WAR 1938 - custom vehicles (generated from docs/vehicles/*.tsv).
+  Custom categories "SW1938 - ..."; source SW1938.
+  Do not edit by hand; edit the TSV and re-run build_vehicles_xml.py.
+-->
+<chummer>
+  <categories>
+    <category blackmarket="Vehicles">SW1938 – Letadla</category>
+    <category blackmarket="Vehicles">SW1938 – Lodě</category>
+    <category blackmarket="Vehicles">SW1938 – Motocykly</category>
+    <category blackmarket="Vehicles">SW1938 – Nákladní auta</category>
+    <category blackmarket="Vehicles">SW1938 – Obrněná vozidla</category>
+    <category blackmarket="Vehicles">SW1938 – Osobní auta</category>
+    <category blackmarket="Vehicles">SW1938 – Ponorky</category>
+    <category blackmarket="Vehicles">SW1938 – Vrtulníky</category>
+    <category blackmarket="Vehicles">SW1938 – Vzducholodě</category>
+  </categories>
+  <vehicles>
+    <vehicle>
+      <id>126204af-c906-5a7d-9a27-9f17663bf746</id>
+      <name>BMW R12</name>
+      <page>1</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>4R</avail>
+      <body>5</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>4000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>fb9481c8-139c-5b3c-bd0a-d97207ca5c92</id>
+      <name>DKW RT 125</name>
+      <page>2</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>2</armor>
+      <avail>3R</avail>
+      <body>4</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>2500</cost>
+      <handling>5/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>c79d0e6b-0b58-56c9-8b4d-d4ca8381a6c1</id>
+      <name>Harley-Davidson WLA</name>
+      <page>3</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>5R</avail>
+      <body>6</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>5500</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>4</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>08a0995a-788e-5aa9-88d1-2af724eb2563</id>
+      <name>Zündapp KS 750</name>
+      <page>4</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>5R</avail>
+      <body>6</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>6000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>a5c2cbfb-198e-52cd-a745-078271611833</id>
+      <name>Zündapp s postranním vozíkem</name>
+      <page>5</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>6R</avail>
+      <body>7</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>8000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>257531a1-eb2c-56bb-a677-e670d2202da1</id>
+      <name>Motocykl s kulometem</name>
+      <page>6</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>8F</avail>
+      <body>7</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>12000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>01a1d27a-f6d3-55f4-ab06-9227e1e164e3</id>
+      <name>Kettenkrad (Sd.Kfz 2)</name>
+      <page>7</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>8R</avail>
+      <body>7</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>10000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>82b4ab5f-a924-576c-b4c6-ffef83ddfea1</id>
+      <name>Goliath</name>
+      <page>8</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>3</body>
+      <category>SW1938 – Motocykly</category>
+      <cost>5000</cost>
+      <handling>3</handling>
+      <pilot>0</pilot>
+      <sensor>0</sensor>
+      <speed>2</speed>
+      <seats>0</seats>
+    </vehicle>
+    <vehicle>
+      <id>6ab7abc0-64fb-5212-976a-8d687f8ecdb2</id>
+      <name>Opel Olympia</name>
+      <page>9</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>3R</avail>
+      <body>10</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>6000</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>eedcd8d5-4f7f-5ba3-8534-9f277ae4d698</id>
+      <name>Mercedes-Benz 770</name>
+      <page>10</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>6R</avail>
+      <body>12</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>25000</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>5</seats>
+    </vehicle>
+    <vehicle>
+      <id>145894ef-2e2e-5098-b5b5-226f5dfecd76</id>
+      <name>Kübelwagen</name>
+      <page>11</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>5R</avail>
+      <body>9</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>5000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>f4644bac-dab7-52ad-84c2-37237e568f9f</id>
+      <name>Willys MB</name>
+      <page>12</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>5R</avail>
+      <body>10</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>7000</cost>
+      <handling>5/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>05e17220-044f-5e85-a18c-290376f67aa0</id>
+      <name>Horch 108</name>
+      <page>13</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>6R</avail>
+      <body>11</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>12000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>5</seats>
+    </vehicle>
+    <vehicle>
+      <id>79b4d6f8-1372-5318-82c2-caee4b8998d1</id>
+      <name>Tatra 87</name>
+      <page>14</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>3</armor>
+      <avail>5R</avail>
+      <body>10</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>15000</cost>
+      <handling>5/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>4</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>d68cd339-57d4-5fe7-9b8c-8c9a4ef9bcd2</id>
+      <name>KdF-Wagen</name>
+      <page>15</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>6R</avail>
+      <body>9</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>4000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>04dc6fd4-d1a2-539d-8f95-7d728723602e</id>
+      <name>Policejní auto</name>
+      <page>16</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>4R</avail>
+      <body>10</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>8000</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>a811ea7d-e2b4-5a13-b2f6-952b9bef3d7a</id>
+      <name>Ambulance</name>
+      <page>17</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>5R</avail>
+      <body>12</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>9000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>6</seats>
+    </vehicle>
+    <vehicle>
+      <id>687ea194-e415-52f9-9141-1e9f998747c4</id>
+      <name>Citroën P17</name>
+      <page>18</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>7R</avail>
+      <body>11</body>
+      <category>SW1938 – Osobní auta</category>
+      <cost>10000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>6799ddf6-2fe7-5c3b-bc82-fb93a883747b</id>
+      <name>Opel Blitz</name>
+      <page>19</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>5R</avail>
+      <body>15</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>12000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>7e17a98d-d283-599c-a627-eb53949d038c</id>
+      <name>GAZ-AAA</name>
+      <page>20</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>5R</avail>
+      <body>14</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>9000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>d2ebcb3c-73cb-5eac-88d4-9666383b6009</id>
+      <name>Sd.Kfz 251</name>
+      <page>21</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>8</armor>
+      <avail>8F</avail>
+      <body>16</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>25000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>10</seats>
+    </vehicle>
+    <vehicle>
+      <id>f3423df3-7b75-57ba-8b76-eef8da4e7286</id>
+      <name>Sd.Kfz 7</name>
+      <page>22</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>8R</avail>
+      <body>16</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>20000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>8</seats>
+    </vehicle>
+    <vehicle>
+      <id>8a1e2ffd-93d1-5ff1-9244-37de3ca5bec2</id>
+      <name>Lanz Bulldog</name>
+      <page>23</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>4R</avail>
+      <body>15</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>10000</cost>
+      <handling>2/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>1</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>39c4c711-bd61-5ee1-b7a0-6a21e83a6e29</id>
+      <name>Cisternový vůz</name>
+      <page>24</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>6R</avail>
+      <body>16</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>15000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>0b5ca3ab-5fcf-55f4-b6d6-f2488a055f61</id>
+      <name>Muniční vůz</name>
+      <page>25</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>7R</avail>
+      <body>15</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>14000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>adbf2927-11ef-53a6-8e5a-0ec9e9049786</id>
+      <name>Pontonový vůz</name>
+      <page>26</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>8R</avail>
+      <body>17</body>
+      <category>SW1938 – Nákladní auta</category>
+      <cost>18000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>b89295cf-1b72-5ca4-bfe2-22a717e0fb2b</id>
+      <name>Panzer II</name>
+      <page>27</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>12</armor>
+      <avail>12F</avail>
+      <body>18</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>80000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>4f9cc82a-74eb-54ec-92fd-ab9ea2286fe1</id>
+      <name>Panzer IV</name>
+      <page>28</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>16</armor>
+      <avail>14F</avail>
+      <body>22</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>150000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <seats>5</seats>
+    </vehicle>
+    <vehicle>
+      <id>67abed7a-9672-5b7b-96ed-b126374d4055</id>
+      <name>T-26</name>
+      <page>29</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>10</armor>
+      <avail>12F</avail>
+      <body>18</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>70000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>7af29b55-3798-5fd5-99ae-706ab62d822a</id>
+      <name>Matilda II</name>
+      <page>30</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>18</armor>
+      <avail>14F</avail>
+      <body>20</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>130000</cost>
+      <handling>2/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>772c33eb-4ccf-5b74-a3e6-b3b34afc4939</id>
+      <name>Char B1</name>
+      <page>31</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>17</armor>
+      <avail>14F</avail>
+      <body>21</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>140000</cost>
+      <handling>2/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>83dcb780-364c-5cb7-b3f5-39afc002ead8</id>
+      <name>T-34</name>
+      <page>32</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>18</armor>
+      <avail>16F</avail>
+      <body>24</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>180000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>554c0cde-2620-5751-abb0-398873c3387c</id>
+      <name>Tiger I</name>
+      <page>33</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>22</armor>
+      <avail>18F</avail>
+      <body>26</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>350000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <seats>5</seats>
+    </vehicle>
+    <vehicle>
+      <id>ef1cd778-8ce9-52ff-9459-e12683eb3841</id>
+      <name>Sd.Kfz 231</name>
+      <page>34</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>10</armor>
+      <avail>12F</avail>
+      <body>16</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>60000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>ecad4f44-b5b8-54fe-b124-9293246a8395</id>
+      <name>Flakpanzer</name>
+      <page>35</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>12</armor>
+      <avail>14F</avail>
+      <body>20</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>120000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>d883d5b7-8316-5098-9f1c-c72fe6151b90</id>
+      <name>StuG III</name>
+      <page>36</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>15</armor>
+      <avail>14F</avail>
+      <body>21</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>130000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>31db9f78-78c8-5abb-bb23-42ccd7f7a7f2</id>
+      <name>Sd.Kfz 247</name>
+      <page>37</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>8</armor>
+      <avail>11F</avail>
+      <body>15</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>50000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>68639598-a8a9-522d-b5ef-4fe185d57764</id>
+      <name>Panzerwerfer</name>
+      <page>38</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>10</armor>
+      <avail>15F</avail>
+      <body>18</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>100000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>50f7406f-b381-55e3-b067-c8d3c3df8e56</id>
+      <name>Flammpanzer</name>
+      <page>39</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>11</armor>
+      <avail>15F</avail>
+      <body>18</body>
+      <category>SW1938 – Obrněná vozidla</category>
+      <cost>90000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>3</seats>
+    </vehicle>
+    <vehicle>
+      <id>9dc8e49a-8bbb-58dd-973c-1f529c3666b4</id>
+      <name>Bf 109</name>
+      <page>40</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>10</body>
+      <category>SW1938 – Letadla</category>
+      <cost>90000</cost>
+      <handling>5/4</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>7</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>7b0138c0-0a50-52bd-92fe-53c8783c459b</id>
+      <name>Spitfire</name>
+      <page>41</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>10</body>
+      <category>SW1938 – Letadla</category>
+      <cost>95000</cost>
+      <handling>5/4</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>7</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>284fe05d-b718-5ca5-b295-4c01f65b2b40</id>
+      <name>Hurricane</name>
+      <page>42</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>11F</avail>
+      <body>10</body>
+      <category>SW1938 – Letadla</category>
+      <cost>80000</cost>
+      <handling>5/4</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>6</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>3e587f8b-8ded-59f1-a37b-d58b1ca2a0b5</id>
+      <name>P-40 Warhawk</name>
+      <page>43</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>10</body>
+      <category>SW1938 – Letadla</category>
+      <cost>85000</cost>
+      <handling>5/4</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>6</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>4662a649-34a0-59bc-b34f-a17040f71c27</id>
+      <name>A6M Zero</name>
+      <page>44</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>2</armor>
+      <avail>13F</avail>
+      <body>9</body>
+      <category>SW1938 – Letadla</category>
+      <cost>90000</cost>
+      <handling>6/5</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>6</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>d7b0337d-d5bf-57b1-acbd-dac81db440c1</id>
+      <name>He 111</name>
+      <page>45</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>6</armor>
+      <avail>14F</avail>
+      <body>18</body>
+      <category>SW1938 – Letadla</category>
+      <cost>200000</cost>
+      <handling>3/2</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>5</speed>
+      <seats>5</seats>
+    </vehicle>
+    <vehicle>
+      <id>5cf787c6-84c9-5e94-b1d2-64069d1fd6de</id>
+      <name>B-17 Flying Fortress</name>
+      <page>46</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>16F</avail>
+      <body>22</body>
+      <category>SW1938 – Letadla</category>
+      <cost>350000</cost>
+      <handling>2/2</handling>
+      <pilot>3</pilot>
+      <sensor>4</sensor>
+      <speed>5</speed>
+      <seats>10</seats>
+    </vehicle>
+    <vehicle>
+      <id>8b68316e-dd1d-592d-a1fa-47db8ebe079e</id>
+      <name>Ju 52</name>
+      <page>47</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>18</body>
+      <category>SW1938 – Letadla</category>
+      <cost>150000</cost>
+      <handling>3/2</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <seats>17</seats>
+    </vehicle>
+    <vehicle>
+      <id>625b6c61-d962-5ae7-890b-5b9299ea1bec</id>
+      <name>Fieseler Storch</name>
+      <page>48</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>2</armor>
+      <avail>10F</avail>
+      <body>8</body>
+      <category>SW1938 – Letadla</category>
+      <cost>60000</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>9d34c0c3-916a-50f0-a6ea-c32cfa7bc2ad</id>
+      <name>de Havilland Mosquito</name>
+      <page>49</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>3</armor>
+      <avail>15F</avail>
+      <body>12</body>
+      <category>SW1938 – Letadla</category>
+      <cost>250000</cost>
+      <handling>5/4</handling>
+      <pilot>2</pilot>
+      <sensor>4</sensor>
+      <speed>7</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>398527ef-0872-5029-be6c-ddc42c2c08a4</id>
+      <name>Me 262</name>
+      <page>50</page>
+      <source>SW1938</source>
+      <accel>4</accel>
+      <armor>4</armor>
+      <avail>20F</avail>
+      <body>12</body>
+      <category>SW1938 – Letadla</category>
+      <cost>500000</cost>
+      <handling>5/4</handling>
+      <pilot>3</pilot>
+      <sensor>4</sensor>
+      <speed>9</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>d2388e68-c868-5a88-a191-2408b0b783fb</id>
+      <name>Hindenburg (LZ 129)</name>
+      <page>51</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>16F</avail>
+      <body>25</body>
+      <category>SW1938 – Vzducholodě</category>
+      <cost>800000</cost>
+      <handling>2/1</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <seats>50</seats>
+    </vehicle>
+    <vehicle>
+      <id>b9945c08-fdd9-53ad-b564-7199ecd45080</id>
+      <name>Graf Zeppelin (LZ 127)</name>
+      <page>52</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>15F</avail>
+      <body>24</body>
+      <category>SW1938 – Vzducholodě</category>
+      <cost>600000</cost>
+      <handling>2/1</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <seats>40</seats>
+    </vehicle>
+    <vehicle>
+      <id>a3c148c9-9056-5ec4-987b-13fc4853f95a</id>
+      <name>Průzkumná vzducholoď</name>
+      <page>53</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>10F</avail>
+      <body>12</body>
+      <category>SW1938 – Vzducholodě</category>
+      <cost>80000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <seats>4</seats>
+    </vehicle>
+    <vehicle>
+      <id>cdae7d7f-4556-5f16-8b77-d5484ba3caed</id>
+      <name>Torpédový člun (S-boot)</name>
+      <page>54</page>
+      <source>SW1938</source>
+      <accel>3</accel>
+      <armor>6</armor>
+      <avail>14F</avail>
+      <body>14</body>
+      <category>SW1938 – Lodě</category>
+      <cost>200000</cost>
+      <handling>4/3</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>5</speed>
+      <seats>20</seats>
+    </vehicle>
+    <vehicle>
+      <id>ad691322-8ae1-5245-af28-537967a955b7</id>
+      <name>Hlídkový člun</name>
+      <page>55</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>5</armor>
+      <avail>12F</avail>
+      <body>13</body>
+      <category>SW1938 – Lodě</category>
+      <cost>120000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <seats>12</seats>
+    </vehicle>
+    <vehicle>
+      <id>0dcee232-59ab-59bc-938c-d8b3bd3ad201</id>
+      <name>Nákladní loď</name>
+      <page>56</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>10R</avail>
+      <body>20</body>
+      <category>SW1938 – Lodě</category>
+      <cost>300000</cost>
+      <handling>2/2</handling>
+      <pilot>2</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>30</seats>
+    </vehicle>
+    <vehicle>
+      <id>eb5ddf20-8f49-5ff9-9525-f632272f5db8</id>
+      <name>Rybářská loď</name>
+      <page>57</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>4R</avail>
+      <body>12</body>
+      <category>SW1938 – Lodě</category>
+      <cost>40000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>6</seats>
+    </vehicle>
+    <vehicle>
+      <id>0c09c700-86a4-5ff9-8d87-e632d1a5801c</id>
+      <name>Výsadková loď</name>
+      <page>58</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>14</body>
+      <category>SW1938 – Lodě</category>
+      <cost>90000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>30</seats>
+    </vehicle>
+    <vehicle>
+      <id>4d1fcae0-43d1-59b4-8e5f-a341edef7f24</id>
+      <name>Minolovka</name>
+      <page>59</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>12F</avail>
+      <body>15</body>
+      <category>SW1938 – Lodě</category>
+      <cost>150000</cost>
+      <handling>3/2</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>20</seats>
+    </vehicle>
+    <vehicle>
+      <id>ce36baf1-f2cb-507c-bce4-16b8713dde38</id>
+      <name>Říční člun</name>
+      <page>60</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>3R</avail>
+      <body>8</body>
+      <category>SW1938 – Lodě</category>
+      <cost>15000</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>6</seats>
+    </vehicle>
+    <vehicle>
+      <id>a89ae607-7881-5e2f-8f91-b7aebb93244d</id>
+      <name>Civilní jachta</name>
+      <page>61</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>6R</avail>
+      <body>12</body>
+      <category>SW1938 – Lodě</category>
+      <cost>80000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <seats>8</seats>
+    </vehicle>
+    <vehicle>
+      <id>fb7a19e1-0289-5c4e-93fc-fd3c1b4b35b3</id>
+      <name>Type VII (U-boat)</name>
+      <page>62</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>16F</avail>
+      <body>20</body>
+      <category>SW1938 – Ponorky</category>
+      <cost>500000</cost>
+      <handling>3/2</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <seats>44</seats>
+    </vehicle>
+    <vehicle>
+      <id>f63a24eb-e389-5683-b681-26b3495efa58</id>
+      <name>Type II (pobřežní)</name>
+      <page>63</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>14F</avail>
+      <body>12</body>
+      <category>SW1938 – Ponorky</category>
+      <cost>200000</cost>
+      <handling>3/2</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>25</seats>
+    </vehicle>
+    <vehicle>
+      <id>32bc4694-3c8c-5b8a-84cd-e26246d58545</id>
+      <name>Neger (miniponorka)</name>
+      <page>64</page>
+      <source>SW1938</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>14F</avail>
+      <body>6</body>
+      <category>SW1938 – Ponorky</category>
+      <cost>30000</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>68e45d18-d8c1-5eaf-a0fc-f12d67b2c2d5</id>
+      <name>Focke-Wulf Fw 61</name>
+      <page>65</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>16F</avail>
+      <body>8</body>
+      <category>SW1938 – Vrtulníky</category>
+      <cost>120000</cost>
+      <handling>4/4</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>7dc73017-2723-521b-87c7-8223b981ab31</id>
+      <name>Cierva C.30</name>
+      <page>66</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>14F</avail>
+      <body>8</body>
+      <category>SW1938 – Vrtulníky</category>
+      <cost>80000</cost>
+      <handling>4/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>2</seats>
+    </vehicle>
+    <vehicle>
+      <id>5673d550-b65d-5ec2-90bd-62d6c25e9b01</id>
+      <name>Focke-Achgelis Fa 223</name>
+      <page>67</page>
+      <source>SW1938</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>18F</avail>
+      <body>12</body>
+      <category>SW1938 – Vrtulníky</category>
+      <cost>200000</cost>
+      <handling>4/4</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <seats>4</seats>
+    </vehicle>
+  </vehicles>
+</chummer>
