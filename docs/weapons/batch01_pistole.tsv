@@ -1,0 +1,19 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+1	Walther PPK	Holdouts	7,65 mm Browning, 7 ran	Malá německá pistole pro skryté nošení.	DE	1931	Reálná	Skrytá obrana (přesnost)	5P	0	SA	0	7(c)	-4	5		4R	450	Pistols	pouzdro	Nejvyšší přesnost mezi holdouty; slabá ráže.
+2	Mauser 1910	Holdouts	6,35 mm Browning, 9 ran	Kompaktní kapesní pistole.	DE	1910	Reálná	Kapacita / levná	5P	0	SA	0	9(c)	-4	4		3R	300	Pistols	-	Nejvyšší kapacita mezi holdouty; nízká přesnost.
+3	Beretta M1934	Holdouts	9×17 mm, 7 ran	Malá italská služební pistole.	IT	1934	Reálná	Silnější holdout	6P	0	SA	0	7(c)	-4	4		4R	400	Pistols	-	Nejvyšší DMG mezi holdouty.
+4	Astra 300	Light Pistols	9×17 / 7,65 mm, 8 ran	Jednoduchá španělská pistole.	ES	1923	Reálná	Levná	6P	0	SA	0	8(c)	-2	4		4R	300	Pistols	-	Levná, slušná kapacita.
+5	FN Browning M1910	Light Pistols	9×17 / 7,65 mm, 7 ran	Velmi rozšířená kompaktní pistole.	BE	1910	Reálná	Spolehlivá / rozšířená	6P	0	SA	0	7(c)	-2	4		3R	350	Pistols	-	Spolehlivá, snadno dostupná.
+6	Colt M1903 Pocket Hammerless	Light Pistols	.32 ACP, 8 ran	Americká kapesní pistole.	US	1903	Reálná	Precizní / kvalitní	6P	0	SA	0	8(c)	-2	5		4R	400	Pistols	-	Nejvyšší přesnost i kapacita v kategorii.
+7	Webley Mk IV	Light Pistols	.38/200, 6 ran	Britský služební revolver.	UK	1932	Reálná	Revolver – spolehlivost	7P	0	SA	0	6(cy)	-2	5		4R	450	Pistols	pouzdro	Vyšší DMG, přesný; menší kapacita.
+8	Nagant M1895	Light Pistols	7,62×38 mmR, 7 ran	Neobvyklý sovětský revolver s plynotěsným mechanismem.	SU	1895	Reálná	Tichý revolver	7P	-1	SA	0	7(cy)	-2	4		4R	400	Pistols	tlumič (Bramit)	Lze tlumit; AP -1 díky plynotěsnosti.
+9	Walther P38	Heavy Pistols	9×19 mm, 8 ran	Standardní německá služební pistole.	DE	1938	Reálná	Kontrola / ovladatelnost	7P	-1	SA	1	8(c)	0	4		4R	800	Pistols	pouzdro, záložní zásobník	RC 1 (moderní ergonomie); dostupnější než Luger.
+10	Luger P08	Heavy Pistols	9×19 mm, 8 ran	Ikonická německá pistole s kloubovým závěrem.	DE	1908	Reálná	Přesnost	7P	-1	SA	0	8(c)	0	5		5R	950	Pistols	pouzdro, záložní zásobník	Nejvyšší přesnost v kategorii; dražší.
+11	Colt M1911A1	Heavy Pistols	.45 ACP, 7 ran	Výkonná americká služební pistole.	US	1926	Reálná	Poškození	8P	-1	SA	0	7(c)	0	5		5R	900	Pistols	pouzdro, záložní zásobník	Nejvyšší DMG v kategorii; menší kapacita.
+12	Browning Hi-Power	Heavy Pistols	9×19 mm, 13 ran	Moderní velkokapacitní pistole.	BE	1935	Reálná	Kapacita	7P	-1	SA	0	13(c)	0	4		6R	1000	Pistols	pouzdro, záložní zásobník	Nejvyšší kapacita v kategorii.
+13	Tokarev TT-33	Heavy Pistols	7,62×25 mm, 8 ran	Výkonná sovětská pistole.	SU	1933	Reálná	Průbojnost	7P	-2	SA	0	8(c)	0	4		6R	700	Pistols	pouzdro	AP -2 (rychlý náboj); méně přesná.
+14	Vis wz. 35	Heavy Pistols	9×19 mm, 8 ran	Kvalitní polská služební pistole.	PL	1935	Reálná	Prémiová kvalita	7P	-1	SA	1	8(c)	0	5		7R	1100	Pistols	pouzdro, záložní zásobník	Přesná + RC 1; vzácná a drahá.
+15	Mauser C96	Heavy Pistols	7,63×25 mm, 10 ran	Robustní pistole s charakteristickým zásobníkem před lučíkem.	DE	1896	Reálná	Dlouhá hlaveň / kapacita	7P	-1	SA	0	10(c)	0	4		5R	850	Pistols	dřevěné pouzdro-pažba	Vyšší kapacita; delší hlaveň.
+16	Mauser M712 Schnellfeuer	Machine Pistols	7,63×25 mm, 20 ran, automatická palba	Automatická varianta C96.	DE	1932	Reálná	Automatická palba	6P	-2	SA/BF/FA	1	20(c)	0	4		10F	2500	Pistols	dřevěná pažba (sklopná)	AP -2, plná palba, RC 1 s pažbou.
+17	Astra 900/903	Machine Pistols	7,63×25 mm, 10 ran, automatická palba	Španělská kopie Mauseru C96.	ES	1927	Reálná	Automatická palba (levnější)	6P	-2	SA/BF/FA	0	10(c)	0	4		10F	1800	Pistols	dřevěná pažba	Levnější alternativa k M712; bez RC bonusu.
+18	Steyr M1912	Heavy Pistols	9×23 mm Steyr, 8 ran	Rakouská pistole nabíjená nábojovým páskem.	AT	1912	Reálná	Silný náboj	8P	-1	SA	0	8(c)	0	4		5R	800	Pistols	nábojový klip (en-bloc)	Silný náboj (8P); méně přesná.

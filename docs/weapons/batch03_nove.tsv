@@ -1,0 +1,5 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+72	Remington Model 11	Shotguns	12 gauge, samonabíjecí	Licenční kopie Auto-5, široce rozšířená.	US	1905	Reálná	Levnější samonabíjecí	12P	-1	SA	1	5(m)	6	4		8R	1000	Longarms	-	Licenční kopie Auto-5; levnější, méně přesná.
+73	Lupara	Shotguns	12 gauge, zkrácená dvojka	Zkrácená dvojka (sawed-off) pro skryté nošení.	IT	1920	Reálná	Skrytá (sawed-off)	9P	-1	SS	0	2(b)	3	4		5R	450	Longarms	-	Nejskrytelnější brokovnice (conceal 3), ale slabší DMG a jen 2 rány.
+74	Winchester Model 1887	Shotguns	12 gauge, páková	Páková brokovnice, ikonická pro Divoký západ.	US	1887	Reálná	Páková (SA)	12P	-1	SA	0	5(m)	6	4		7R	750	Longarms	-	Pákový opakovač (SA); vyšší DMG za nízkou cenu.
+75	Browning Superposed	Shotguns	12 gauge, dvojka over/under	Kvalitní lovecká dvojka (over/under).	BE	1931	Reálná	Kvalitní dvojka (přesnost)	12P	-1	SS	0	2(b)	6	6		8R	1500	Longarms	-	Nejpřesnější brokovnice (Acc 6); jen 2 rány, drahá.

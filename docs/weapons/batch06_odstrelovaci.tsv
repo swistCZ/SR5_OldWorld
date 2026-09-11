@@ -1,0 +1,5 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+59	Kar98k ZF39	Sniper Rifles	7,92×57 mm, 5 ran, optika	Německá odstřelovací varianta Kar98k.	DE	1939	Prototyp	Německá odstřelovací	10P	-2	SS	0	5(m)	6	6		8F	2000	Longarms	puškohled ZF39	Přesná odstřelovací varianta; drahá a zakázaná.
+60	Mosin-Nagant PU	Sniper Rifles	7,62×54 mmR, 5 ran, optika	Sovětská odstřelovací puška.	SU	1940	Prototyp	Sovětská odstřelovací (levnější)	10P	-2	SS	0	5(m)	6	5		8F	1600	Longarms	puškohled PU	Levnější rozpočtová volba; méně přesná než ZF39 (ne průbojnější).
+61	Lee-Enfield No.4(T)	Sniper Rifles	.303 British, 10 ran, optika	Britská odstřelovací varianta.	UK	1942	Prototyp	Britská odstřelovací (10 ran)	9P	-2	SS	0	10(m)	6	6		9F	2200	Longarms	puškohled No.32	10 ran a přesnost; slabší ráže (9P).
+62	M1903A4	Sniper Rifles	.30-06, 5 ran, optika	Americká odstřelovací varianta Springfieldu.	US	1943	Prototyp	Výkonná odstřelovací	11P	-3	SS	0	5(m)	6	7		9F	2400	Longarms	puškohled M73B1	Nejvýkonnější a nejpřesnější (11P, AP -3, Acc 7); drahá.

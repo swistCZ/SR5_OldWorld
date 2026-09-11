@@ -24,3 +24,7 @@ Chummer5a/customdata/*
 ~$*
 .DS_Store
 Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc

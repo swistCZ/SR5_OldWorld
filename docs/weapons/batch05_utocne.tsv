@@ -1,0 +1,6 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+54	StG 44	Assault Rifles	7,92×33 mm, 30 ran, selektivní palba	První skutečně významná útočná puška.	DE	1944	Prototyp	Univerzální útočná puška	9P	-2	SA/BF/FA	1	30(c)	6	5		12F	2500	Automatics	-	Vyladěná a přesná; referenční útočná puška.
+55	MP 43	Assault Rifles	7,92×33 mm, 30 ran	Předchůdce StG 44.	DE	1943	Prototyp	Levnější produkce	9P	-2	SA/BF/FA	1	30(c)	6	4		11F	2200	Automatics	-	Levnější předchůdce StG; méně přesná.
+56	MKb 42(H)	Assault Rifles	7,92×33 mm, 30 ran	Německý předprodukční prototyp.	DE	1942	Prototyp	Raný prototyp (RC 2)	9P	-2	SA/BF/FA	2	30(c)	6	4		14F	2800	Automatics	-	Těžký raný prototyp (RC 2); drahý a vzácný.
+57	FG 42	Assault Rifles	7,92×57 mm, 20 ran, selektivní palba	Neobvyklá automatická puška výsadkářů.	DE	1942	Prototyp	Výsadkářská (silná ráže)	10P	-2	SA/BF/FA	1	20(c)	5	5		14F	3000	Automatics	-	Silná ráže (10P), kompaktní; malý zásobník, drahá.
+58	AVS-36	Assault Rifles	7,62×54 mmR, 15 ran, automatická palba	Sovětská automatická puška; velmi silný náboj a problematická kontrola.	SU	1936	Reálná	Automatická (průbojná)	10P	-3	SA/BF/FA	0	15(c)	6	4		13F	2400	Automatics	-	Průbojná (AP -3), ale malý zásobník a špatná kontrola (RC 0).

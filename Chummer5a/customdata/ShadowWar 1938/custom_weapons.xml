@@ -1,181 +1,1631 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Custom weapons for the SHADOW WAR 1938 setting.
-  Source book: SW1938 (see custom_books.xml).
-  Values follow SR5 rules and the setting rule:
-  "the more common, the more realistic; the rarer, the more fantastic."
+  SHADOW WAR 1938 - custom weapons (generated from docs/weapons/*.tsv).
+  Source book: SW1938. Custom categories "SW1938 - ..." for easy filtering.
+  Do not edit by hand; edit the TSV sheets and re-run build_weapons_xml.py.
 -->
 <chummer>
+  <categories>
+    <category type="cannon" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Anti-Tank Rifles</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Assault Rifles</category>
+    <category type="flame" gunneryspec="Energy" blackmarket="Weapons">SW1938 – Flamethrowers</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Machine Guns</category>
+    <category type="melee" blackmarket="Weapons">SW1938 – Melee</category>
+    <category type="glauncher" gunneryspec="Artillery" blackmarket="Weapons">SW1938 – Mortars</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Pistols</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Rifles</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Shotguns</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Sniper Rifles</category>
+    <category type="gun" gunneryspec="Ballistic" blackmarket="Weapons">SW1938 – Submachine Guns</category>
+    <category type="exotic" blackmarket="Weapons">SW1938 – Tesla &amp; Occult</category>
+  </categories>
   <weapons>
-
-    <!-- ====== PISTOLS ====== -->
     <weapon>
-      <id>c0528cce-8e47-46a7-85dd-9410b542e824</id>
-      <name>Luger P08</name>
-      <category>Light Pistols</category>
+      <id>695b99e6-f018-5083-8300-8e4cf08740bc</id>
+      <name>Walther PPK</name>
+      <category>SW1938 – Pistols</category>
       <type>Ranged</type>
-      <conceal>5</conceal>
+      <conceal>-4</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>5P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(c)</ammo>
+      <avail>4R</avail>
+      <cost>450</cost>
+      <source>SW1938</source>
+      <page>1</page>
+      <range>Holdouts</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>b489fdf4-db06-5220-9d70-685eebeb8ca2</id>
+      <name>Mauser 1910</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>5P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>9(c)</ammo>
+      <avail>3R</avail>
+      <cost>300</cost>
+      <source>SW1938</source>
+      <page>2</page>
+      <range>Holdouts</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>27272c2b-245c-55cc-8600-5c69614f0f71</id>
+      <name>Beretta M1934</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(c)</ammo>
+      <avail>4R</avail>
+      <cost>400</cost>
+      <source>SW1938</source>
+      <page>3</page>
+      <range>Holdouts</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>e23999bd-d69a-5d55-8a37-94f325d5e8f1</id>
+      <name>Astra 300</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>4R</avail>
+      <cost>300</cost>
+      <source>SW1938</source>
+      <page>4</page>
+      <range>Light Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>ea0f35ba-6780-541f-ae7f-ed75361c0c29</id>
+      <name>FN Browning M1910</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(c)</ammo>
+      <avail>3R</avail>
+      <cost>350</cost>
+      <source>SW1938</source>
+      <page>5</page>
+      <range>Light Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>0662b0ad-2017-5c43-b4cb-d73355926237</id>
+      <name>Colt M1903 Pocket Hammerless</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>4R</avail>
+      <cost>400</cost>
+      <source>SW1938</source>
+      <page>6</page>
+      <range>Light Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>d8c2c9cb-9ffb-58f7-94f2-1eeb3b04cf84</id>
+      <name>Webley Mk IV</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
       <accuracy>5</accuracy>
       <reach>0</reach>
       <damage>7P</damage>
       <ap>0</ap>
       <mode>SA</mode>
       <rc>0</rc>
-      <ammo>8(c)</ammo>
+      <ammo>6(cy)</ammo>
       <avail>4R</avail>
-      <cost>900</cost>
+      <cost>450</cost>
       <source>SW1938</source>
-      <page>1</page>
+      <page>7</page>
+      <range>Light Pistols</range>
       <useskill>Pistols</useskill>
     </weapon>
     <weapon>
-      <id>d95126e1-3c92-4eba-9e68-02ebb2752ecc</id>
+      <id>49d69254-f86d-5144-9a58-026726078dc9</id>
+      <name>Nagant M1895</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(cy)</ammo>
+      <avail>4R</avail>
+      <cost>400</cost>
+      <source>SW1938</source>
+      <page>8</page>
+      <range>Light Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>da81afd6-de4f-550f-9404-7aa1151d9fd7</id>
+      <name>Walther P38</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>8(c)</ammo>
+      <avail>4R</avail>
+      <cost>800</cost>
+      <source>SW1938</source>
+      <page>9</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>61ed0405-eeb5-57d9-aa95-77a74d4ee689</id>
+      <name>Luger P08</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>5R</avail>
+      <cost>950</cost>
+      <source>SW1938</source>
+      <page>10</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>5c1c7f1d-05ee-589c-b45e-e817cb199aea</id>
+      <name>Colt M1911A1</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(c)</ammo>
+      <avail>5R</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>11</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>6ee4a63b-2ab5-51aa-898f-703ed75a44a8</id>
+      <name>Browning Hi-Power</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>13(c)</ammo>
+      <avail>6R</avail>
+      <cost>1000</cost>
+      <source>SW1938</source>
+      <page>12</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>7ec8bcb2-628c-51c8-97b3-1efbddee1d83</id>
+      <name>Tokarev TT-33</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>6R</avail>
+      <cost>700</cost>
+      <source>SW1938</source>
+      <page>13</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>07814352-2aaf-5693-88e4-0c797c96d2eb</id>
+      <name>Vis wz. 35</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>8(c)</ammo>
+      <avail>7R</avail>
+      <cost>1100</cost>
+      <source>SW1938</source>
+      <page>14</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>cdb6a8da-c19c-5831-b78f-909b5128b7aa</id>
+      <name>Mauser C96</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>5R</avail>
+      <cost>850</cost>
+      <source>SW1938</source>
+      <page>15</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>e7d554ef-1c57-5190-861f-9246ac5730c9</id>
+      <name>Mauser M712 Schnellfeuer</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>20(c)</ammo>
+      <avail>10F</avail>
+      <cost>2500</cost>
+      <source>SW1938</source>
+      <page>16</page>
+      <range>Machine Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>768a2152-cb1b-5b65-bd7f-8068a379d596</id>
+      <name>Astra 900/903</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>10F</avail>
+      <cost>1800</cost>
+      <source>SW1938</source>
+      <page>17</page>
+      <range>Machine Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>00b95068-6350-5446-8805-74246901bfca</id>
+      <name>Steyr M1912</name>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>5R</avail>
+      <cost>800</cost>
+      <source>SW1938</source>
+      <page>18</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>774026f2-90a1-59f9-bfcf-29979589d9cf</id>
       <name>Webley Mk VI</name>
-      <category>Heavy Pistols</category>
+      <category>SW1938 – Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>6(cy)</ammo>
+      <avail>4R</avail>
+      <cost>800</cost>
+      <source>SW1938</source>
+      <page>71</page>
+      <range>Heavy Pistols</range>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <id>1b484e65-fdf1-53b9-9f37-e0b423aecd59</id>
+      <name>MP 40</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>32(c)</ammo>
+      <avail>8R</avail>
+      <cost>1400</cost>
+      <source>SW1938</source>
+      <page>19</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>6bed3280-a7e6-5044-a992-1bdbcc197f8e</id>
+      <name>MP 34</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>32(c)</ammo>
+      <avail>9R</avail>
+      <cost>1500</cost>
+      <source>SW1938</source>
+      <page>20</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>eb8a7079-63fa-5e01-b2f2-24a04815ca7d</id>
+      <name>MP 35/II</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>2</rc>
+      <ammo>32(c)</ammo>
+      <avail>9R</avail>
+      <cost>1600</cost>
+      <source>SW1938</source>
+      <page>21</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>8d7e6501-588e-5bb2-a220-cf18961314e0</id>
+      <name>EMP 44</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>10F</avail>
+      <cost>700</cost>
+      <source>SW1938</source>
+      <page>22</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>9d5e450c-2a84-592d-afcf-c4b1ac0ee3f6</id>
+      <name>Sten Mk II</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>6R</avail>
+      <cost>600</cost>
+      <source>SW1938</source>
+      <page>23</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>f3c70469-0965-5f5b-baae-0d799a4f4da1</id>
+      <name>Sterling</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>34(c)</ammo>
+      <avail>11F</avail>
+      <cost>1600</cost>
+      <source>SW1938</source>
+      <page>24</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>b1f612e7-4f23-5c76-8442-584a063d6453</id>
+      <name>Thompson M1928</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>50(d)</ammo>
+      <avail>9R</avail>
+      <cost>2000</cost>
+      <source>SW1938</source>
+      <page>25</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>adfa5cfe-93dc-5795-b3d4-e1f81393e274</id>
+      <name>Thompson M1</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>BF/FA</mode>
+      <rc>0</rc>
+      <ammo>30(c)</ammo>
+      <avail>8R</avail>
+      <cost>1500</cost>
+      <source>SW1938</source>
+      <page>26</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>d52307ab-2cb9-585c-bb79-7451373564bc</id>
+      <name>M3 „Grease Gun“</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>BF/FA</mode>
+      <rc>0</rc>
+      <ammo>30(c)</ammo>
+      <avail>10R</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>27</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>4faac0ba-3187-50ed-a24d-e190aef0ebd0</id>
+      <name>PPSh-41</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>71(d)</ammo>
+      <avail>9R</avail>
+      <cost>1500</cost>
+      <source>SW1938</source>
+      <page>28</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>fa9ee839-fb9f-51e2-9113-d1ffbf1701ea</id>
+      <name>PPS-43</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>35(c)</ammo>
+      <avail>9R</avail>
+      <cost>1300</cost>
+      <source>SW1938</source>
+      <page>29</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>d6075a27-25aa-5b02-9f1f-9315f830c804</id>
+      <name>PPD-40</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>71(d)</ammo>
+      <avail>10R</avail>
+      <cost>1700</cost>
+      <source>SW1938</source>
+      <page>30</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>ed11fe25-1dc8-514f-856c-c6dfb08ddf04</id>
+      <name>Suomi KP/-31</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>71(d)</ammo>
+      <avail>9R</avail>
+      <cost>2000</cost>
+      <source>SW1938</source>
+      <page>31</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>ff8b16c4-16b3-588f-b159-409465dda8e4</id>
+      <name>ZK 383</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>2</rc>
+      <ammo>30(c)</ammo>
+      <avail>10R</avail>
+      <cost>1800</cost>
+      <source>SW1938</source>
+      <page>32</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>9a9b206b-70d3-5586-aaa1-4291312de90b</id>
+      <name>Beretta M38</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>40(c)</ammo>
+      <avail>9R</avail>
+      <cost>1700</cost>
+      <source>SW1938</source>
+      <page>33</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>e1fe6ae6-c711-5bc1-9567-423a3253c67e</id>
+      <name>Owen Gun</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>33(c)</ammo>
+      <avail>10R</avail>
+      <cost>1200</cost>
+      <source>SW1938</source>
+      <page>34</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>e84b4081-eae9-50ad-a50f-8992959e1359</id>
+      <name>MP 3008</name>
+      <category>SW1938 – Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>0</ap>
+      <mode>FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>11F</avail>
+      <cost>550</cost>
+      <source>SW1938</source>
+      <page>35</page>
+      <range>Submachine Guns</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>74ed184e-4752-54f0-bc57-3aeaf29c9087</id>
+      <name>Winchester M1897</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-1</ap>
+      <mode>SS/SA</mode>
+      <rc>0</rc>
+      <ammo>6(m)</ammo>
+      <avail>6R</avail>
+      <cost>700</cost>
+      <source>SW1938</source>
+      <page>36</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>7f01cd31-15fb-5f70-8027-a92596b29daa</id>
+      <name>Winchester M1912</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-1</ap>
+      <mode>SS/SA</mode>
+      <rc>1</rc>
+      <ammo>6(m)</ammo>
+      <avail>7R</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>37</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>dd08f82f-a71b-53bb-b4ff-169ec1bcb00e</id>
+      <name>Ithaca M37</name>
+      <category>SW1938 – Shotguns</category>
       <type>Ranged</type>
       <conceal>5</conceal>
       <accuracy>5</accuracy>
       <reach>0</reach>
-      <damage>9P</damage>
-      <ap>0</ap>
+      <damage>11P</damage>
+      <ap>-1</ap>
+      <mode>SS/SA</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>6R</avail>
+      <cost>850</cost>
+      <source>SW1938</source>
+      <page>38</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>41626435-78e8-51b5-ab5d-1bc6d7cf871b</id>
+      <name>Browning Auto-5</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>13P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>5(m)</ammo>
+      <avail>8R</avail>
+      <cost>1200</cost>
+      <source>SW1938</source>
+      <page>39</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>564d5f92-e6e5-595c-94b4-2fb7b744b52a</id>
+      <name>TOZ-34</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-1</ap>
       <mode>SS</mode>
       <rc>0</rc>
-      <ammo>6(cy)</ammo>
+      <ammo>2(b)</ammo>
       <avail>4R</avail>
-      <cost>1100</cost>
+      <cost>400</cost>
       <source>SW1938</source>
-      <page>1</page>
-      <useskill>Pistols</useskill>
+      <page>40</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
     </weapon>
-
-    <!-- ====== RIFLES ====== -->
     <weapon>
-      <id>be41d640-eeee-4ca1-b1e2-593e859309c8</id>
-      <name>Kar98k</name>
-      <category>Sporting Rifles</category>
+      <id>aa2b7425-ab82-5d89-91fd-91f39fa6e136</id>
+      <name>Remington Model 11</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>5(m)</ammo>
+      <avail>8R</avail>
+      <cost>1000</cost>
+      <source>SW1938</source>
+      <page>72</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>7aeed748-d3b7-5434-a280-80c6e0955a7e</id>
+      <name>Lupara</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>2(b)</ammo>
+      <avail>5R</avail>
+      <cost>450</cost>
+      <source>SW1938</source>
+      <page>73</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>026f0285-914d-5c3e-93d4-eb6408758af4</id>
+      <name>Winchester Model 1887</name>
+      <category>SW1938 – Shotguns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>7R</avail>
+      <cost>750</cost>
+      <source>SW1938</source>
+      <page>74</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>e6307073-c8e1-5452-854b-07c0032f8bec</id>
+      <name>Browning Superposed</name>
+      <category>SW1938 – Shotguns</category>
       <type>Ranged</type>
       <conceal>6</conceal>
       <accuracy>6</accuracy>
       <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>2(b)</ammo>
+      <avail>8R</avail>
+      <cost>1500</cost>
+      <source>SW1938</source>
+      <page>75</page>
+      <range>Shotguns</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>95371653-8052-565c-b3af-29a39b54a3e4</id>
+      <name>Karabiner 98k</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
       <damage>10P</damage>
       <ap>-2</ap>
-      <mode>SA</mode>
+      <mode>SS</mode>
       <rc>0</rc>
       <ammo>5(m)</ammo>
       <avail>5R</avail>
       <cost>1200</cost>
       <source>SW1938</source>
-      <page>1</page>
+      <page>41</page>
+      <range>Sporting Rifles</range>
       <useskill>Longarms</useskill>
     </weapon>
     <weapon>
-      <id>a794f83a-7c19-4adc-b3a6-ba97b48a77ab</id>
+      <id>393f8a1f-f818-5903-a607-7ae7b168eb64</id>
+      <name>Gewehr 98</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>1</rc>
+      <ammo>5(m)</ammo>
+      <avail>4R</avail>
+      <cost>1000</cost>
+      <source>SW1938</source>
+      <page>42</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>51717eaa-e080-572f-bebc-92a14e428025</id>
+      <name>Gewehr 41</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>10(c)</ammo>
+      <avail>10F</avail>
+      <cost>2000</cost>
+      <source>SW1938</source>
+      <page>43</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>060de664-7d7a-54bf-ae94-1982f664bc94</id>
+      <name>Gewehr 43</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>10(c)</ammo>
+      <avail>12F</avail>
+      <cost>2500</cost>
+      <source>SW1938</source>
+      <page>44</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>02a58e37-64ed-5ebf-867d-2ee4f5f925d6</id>
+      <name>Mosin-Nagant M91/30</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>4R</avail>
+      <cost>900</cost>
+      <source>SW1938</source>
+      <page>45</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>8b216a9b-fdc8-5f9e-a28e-c90d0d149bfb</id>
+      <name>SVT-38</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>10F</avail>
+      <cost>1800</cost>
+      <source>SW1938</source>
+      <page>46</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>90bf8c62-39cb-5fac-82e8-af1766656c68</id>
+      <name>SVT-40</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>11F</avail>
+      <cost>2200</cost>
+      <source>SW1938</source>
+      <page>47</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>d05e631a-4655-5835-abdf-b95661ecdb1e</id>
+      <name>Lee-Enfield No.4</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(m)</ammo>
+      <avail>5R</avail>
+      <cost>1300</cost>
+      <source>SW1938</source>
+      <page>48</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>e62fa8b7-a51c-5150-9370-a57f4a349f99</id>
+      <name>Springfield M1903</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-3</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>5R</avail>
+      <cost>1300</cost>
+      <source>SW1938</source>
+      <page>49</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>d4753ead-4c13-59fc-83ba-7e0a5b6200f6</id>
+      <name>M1 Garand</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>6R</avail>
+      <cost>1800</cost>
+      <source>SW1938</source>
+      <page>50</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>b5d35934-e678-5a7f-a15c-5efe881b3bcb</id>
+      <name>M1 Carbine</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>5</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>15(c)</ammo>
+      <avail>6R</avail>
+      <cost>1200</cost>
+      <source>SW1938</source>
+      <page>51</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>a61d39b2-a3ab-5aed-a8f6-f5f45459efab</id>
+      <name>vz. 24</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>6R</avail>
+      <cost>1100</cost>
+      <source>SW1938</source>
+      <page>52</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>f26705c0-edee-5acd-b9b2-5ca40118f1f2</id>
+      <name>MAS-36</name>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>5</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>5R</avail>
+      <cost>1000</cost>
+      <source>SW1938</source>
+      <page>53</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>747b91de-1a90-55db-8e65-dced9a4cf290</id>
       <name>Lee-Enfield SMLE</name>
-      <category>Sporting Rifles</category>
+      <category>SW1938 – Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(m)</ammo>
+      <avail>5R</avail>
+      <cost>1250</cost>
+      <source>SW1938</source>
+      <page>76</page>
+      <range>Sporting Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>a2bd18f5-a482-5e62-a33c-e14bc4aa4e33</id>
+      <name>StG 44</name>
+      <category>SW1938 – Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>30(c)</ammo>
+      <avail>12F</avail>
+      <cost>2500</cost>
+      <source>SW1938</source>
+      <page>54</page>
+      <range>Assault Rifles</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>fefd54ab-08e8-51a2-9fdf-3b1e6003586d</id>
+      <name>MP 43</name>
+      <category>SW1938 – Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>30(c)</ammo>
+      <avail>11F</avail>
+      <cost>2200</cost>
+      <source>SW1938</source>
+      <page>55</page>
+      <range>Assault Rifles</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>79f784ed-b99c-5ba2-ab96-11637f4822a1</id>
+      <name>MKb 42(H)</name>
+      <category>SW1938 – Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>2</rc>
+      <ammo>30(c)</ammo>
+      <avail>14F</avail>
+      <cost>2800</cost>
+      <source>SW1938</source>
+      <page>56</page>
+      <range>Assault Rifles</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>4269d6ca-0fde-5986-83c0-f6a00fbb2c0a</id>
+      <name>FG 42</name>
+      <category>SW1938 – Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>5</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>20(c)</ammo>
+      <avail>14F</avail>
+      <cost>3000</cost>
+      <source>SW1938</source>
+      <page>57</page>
+      <range>Assault Rifles</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>0eb0cd6b-ca55-53f2-b056-01f88ff3df2b</id>
+      <name>AVS-36</name>
+      <category>SW1938 – Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-3</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>15(c)</ammo>
+      <avail>13F</avail>
+      <cost>2400</cost>
+      <source>SW1938</source>
+      <page>58</page>
+      <range>Assault Rifles</range>
+      <useskill>Automatics</useskill>
+    </weapon>
+    <weapon>
+      <id>e2f1ac47-c14b-5624-ac11-fb7f35f15573</id>
+      <name>Kar98k ZF39</name>
+      <category>SW1938 – Sniper Rifles</category>
       <type>Ranged</type>
       <conceal>6</conceal>
       <accuracy>6</accuracy>
       <reach>0</reach>
       <damage>10P</damage>
       <ap>-2</ap>
-      <mode>SA</mode>
+      <mode>SS</mode>
       <rc>0</rc>
-      <ammo>10(m)</ammo>
-      <avail>5R</avail>
-      <cost>1250</cost>
+      <ammo>5(m)</ammo>
+      <avail>8F</avail>
+      <cost>2000</cost>
       <source>SW1938</source>
-      <page>1</page>
+      <page>59</page>
+      <range>Sniper Rifles</range>
       <useskill>Longarms</useskill>
     </weapon>
-
-    <!-- ====== SHOTGUN ====== -->
     <weapon>
-      <id>68d2c6df-1102-472d-9ed4-a8f702d564ae</id>
-      <name>Remington Model 11</name>
-      <category>Shotguns</category>
+      <id>d2008f1f-29ac-5318-a503-03ccdce87088</id>
+      <name>Mosin-Nagant PU</name>
+      <category>SW1938 – Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>8F</avail>
+      <cost>1600</cost>
+      <source>SW1938</source>
+      <page>60</page>
+      <range>Sniper Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>6904c6c7-8e1c-55a8-9076-24a96d57d7cb</id>
+      <name>Lee-Enfield No.4(T)</name>
+      <category>SW1938 – Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(m)</ammo>
+      <avail>9F</avail>
+      <cost>2200</cost>
+      <source>SW1938</source>
+      <page>61</page>
+      <range>Sniper Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>41ddbb19-6ff1-5e7a-a757-bb6719836e59</id>
+      <name>M1903A4</name>
+      <category>SW1938 – Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-3</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>9F</avail>
+      <cost>2400</cost>
+      <source>SW1938</source>
+      <page>62</page>
+      <range>Sniper Rifles</range>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <id>8b8030a2-4ae9-57c9-bf56-e78a2f9c5ad8</id>
+      <name>ZB vz. 26</name>
+      <category>SW1938 – Machine Guns</category>
       <type>Ranged</type>
       <conceal>7</conceal>
       <accuracy>5</accuracy>
       <reach>0</reach>
-      <damage>13P</damage>
-      <ap>-1</ap>
-      <mode>SS</mode>
-      <rc>0</rc>
-      <ammo>5(m)</ammo>
-      <avail>4R</avail>
-      <cost>1300</cost>
-      <source>SW1938</source>
-      <page>1</page>
-      <useskill>Longarms</useskill>
-    </weapon>
-
-    <!-- ====== MACHINE GUNS ====== -->
-    <weapon>
-      <id>50cbd3a9-0656-430d-a3d0-911492d9b79c</id>
-      <name>Browning M1918 BAR</name>
-      <category>Light Machine Guns</category>
-      <type>Ranged</type>
-      <conceal>9</conceal>
-      <accuracy>4</accuracy>
-      <reach>0</reach>
-      <damage>11P</damage>
+      <damage>10P</damage>
       <ap>-2</ap>
-      <mode>SA/BF</mode>
+      <mode>FA</mode>
       <rc>2</rc>
       <ammo>20(c)</ammo>
-      <avail>10R</avail>
-      <cost>3200</cost>
+      <avail>10F</avail>
+      <cost>3500</cost>
       <source>SW1938</source>
-      <page>1</page>
-      <useskill>Automatics</useskill>
+      <page>63</page>
+      <range>Light Machine Guns</range>
+      <useskill>Heavy Weapons</useskill>
     </weapon>
     <weapon>
-      <id>2c29da77-b0f5-4527-a78a-6eefcacbb801</id>
-      <name>MG34</name>
-      <category>Medium Machine Guns</category>
+      <id>1d050f43-ccee-538c-8bc2-4c0ccf4f821e</id>
+      <name>Bren Mk I</name>
+      <category>SW1938 – Machine Guns</category>
       <type>Ranged</type>
-      <conceal>10</conceal>
+      <conceal>7</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>2</rc>
+      <ammo>30(c)</ammo>
+      <avail>11F</avail>
+      <cost>3800</cost>
+      <source>SW1938</source>
+      <page>64</page>
+      <range>Light Machine Guns</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>57a6d8bd-1951-5054-8bf2-57a51bc4bb5a</id>
+      <name>DP-27</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>7</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>2</rc>
+      <ammo>47(d)</ammo>
+      <avail>10F</avail>
+      <cost>3200</cost>
+      <source>SW1938</source>
+      <page>65</page>
+      <range>Light Machine Guns</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>9550207e-4d63-5a87-a416-e4b9cde2d754</id>
+      <name>BAR M1918A2</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
       <accuracy>4</accuracy>
       <reach>0</reach>
       <damage>11P</damage>
       <ap>-2</ap>
       <mode>SA/BF/FA</mode>
       <rc>2</rc>
-      <ammo>50(b)</ammo>
-      <avail>12F</avail>
-      <cost>4500</cost>
+      <ammo>20(c)</ammo>
+      <avail>9F</avail>
+      <cost>3000</cost>
       <source>SW1938</source>
-      <page>1</page>
-      <useskill>Automatics</useskill>
+      <page>66</page>
+      <range>Light Machine Guns</range>
+      <useskill>Heavy Weapons</useskill>
     </weapon>
-
-    <!-- ====== MELEE ====== -->
     <weapon>
-      <id>ee8656df-e98b-4217-b3d0-9d86fc959f40</id>
-      <name>Bayonet</name>
-      <category>Blades</category>
-      <type>Melee</type>
-      <conceal>3</conceal>
+      <id>78a80c2d-7d46-5190-a4aa-c6523b30565e</id>
+      <name>MG 34</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>4</rc>
+      <ammo>50(b)</ammo>
+      <avail>14F</avail>
+      <cost>5500</cost>
+      <source>SW1938</source>
+      <page>67</page>
+      <range>Medium/Heavy Machinegun</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>05b6d8b8-74ad-556e-a606-3ecf3bca1920</id>
+      <name>MG 42</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
       <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>4</rc>
+      <ammo>50(b)</ammo>
+      <avail>16F</avail>
+      <cost>5000</cost>
+      <source>SW1938</source>
+      <page>68</page>
+      <range>Medium/Heavy Machinegun</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>270408b9-2256-595c-bea4-26f434a661ae</id>
+      <name>Vickers Mk I</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>12</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>6</rc>
+      <ammo>100(b)</ammo>
+      <avail>14F</avail>
+      <cost>6000</cost>
+      <source>SW1938</source>
+      <page>69</page>
+      <range>Medium/Heavy Machinegun</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>1ebff97d-dcaf-55a2-bb20-1afc9c493101</id>
+      <name>M1919A4</name>
+      <category>SW1938 – Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>11</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>FA</mode>
+      <rc>5</rc>
+      <ammo>100(b)</ammo>
+      <avail>13F</avail>
+      <cost>5500</cost>
+      <source>SW1938</source>
+      <page>70</page>
+      <range>Medium/Heavy Machinegun</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>874e1d84-1e8b-5d8e-810f-3710cba7822c</id>
+      <name>Combat Knife</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>-2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4</avail>
+      <cost>300</cost>
+      <source>SW1938</source>
+      <page>77</page>
+      <useskill>Blades</useskill>
+      <spec>Blades</spec>
+    </weapon>
+    <weapon>
+      <id>ad0ec263-68c2-5934-a2e1-3d31f8d5c8f3</id>
+      <name>Bayonet</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>-1</conceal>
+      <accuracy>5</accuracy>
       <reach>1</reach>
       <damage>({STR}+2)P</damage>
-      <ap>-1</ap>
+      <ap>-2</ap>
       <mode>0</mode>
       <rc>0</rc>
       <ammo>0</ammo>
       <avail>3</avail>
       <cost>150</cost>
       <source>SW1938</source>
-      <page>1</page>
-      <spec>Blades</spec>
+      <page>78</page>
       <useskill>Blades</useskill>
+      <spec>Blades</spec>
     </weapon>
     <weapon>
-      <id>80a0c78a-033e-43b5-a98e-1fc62d31c20a</id>
-      <name>Entrenching Tool</name>
-      <category>Clubs</category>
+      <id>d64317fd-cace-5d93-a39e-070ce885e321</id>
+      <name>Fairbairn-Sykes</name>
+      <category>SW1938 – Melee</category>
       <type>Melee</type>
-      <conceal>2</conceal>
+      <conceal>-2</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>7R</avail>
+      <cost>400</cost>
+      <source>SW1938</source>
+      <page>79</page>
+      <useskill>Blades</useskill>
+      <spec>Blades</spec>
+    </weapon>
+    <weapon>
+      <id>5bbdbb7b-9fa4-5012-9e6c-bc1d9ba48dc0</id>
+      <name>Cavalry Saber</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>3</conceal>
+      <accuracy>5</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>6R</avail>
+      <cost>500</cost>
+      <source>SW1938</source>
+      <page>80</page>
+      <useskill>Blades</useskill>
+      <spec>Blades</spec>
+    </weapon>
+    <weapon>
+      <id>a5cd1cab-ca3a-5809-82cf-0b8575de2037</id>
+      <name>Machete</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>1</conceal>
       <accuracy>4</accuracy>
       <reach>1</reach>
       <damage>({STR}+3)P</damage>
@@ -183,19 +1633,277 @@
       <mode>0</mode>
       <rc>0</rc>
       <ammo>0</ammo>
-      <avail>2</avail>
+      <avail>5R</avail>
       <cost>250</cost>
       <source>SW1938</source>
-      <page>1</page>
-      <spec>Clubs</spec>
-      <useskill>Clubs</useskill>
+      <page>81</page>
+      <useskill>Blades</useskill>
+      <spec>Blades</spec>
     </weapon>
-
-    <!-- ====== EXPERIMENTAL (TESLAPUNK) ====== -->
     <weapon>
-      <id>84838170-fff8-499b-97c5-b972135c92ee</id>
+      <id>4480ae0f-9daf-5388-800d-ab04431f61bb</id>
+      <name>Axe / Hatchet</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>3</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4</avail>
+      <cost>150</cost>
+      <source>SW1938</source>
+      <page>82</page>
+      <useskill>Blades</useskill>
+      <spec>Blades</spec>
+    </weapon>
+    <weapon>
+      <id>ed3ed8b7-67e7-554a-be0a-43298132eaab</id>
+      <name>Entrenching Tool</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>1</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>3</avail>
+      <cost>200</cost>
+      <source>SW1938</source>
+      <page>83</page>
+      <useskill>Clubs</useskill>
+      <spec>Clubs</spec>
+    </weapon>
+    <weapon>
+      <id>a6e11e32-9acb-5d74-b654-63572e06767c</id>
+      <name>Trench Club</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>0</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4</avail>
+      <cost>100</cost>
+      <source>SW1938</source>
+      <page>84</page>
+      <useskill>Clubs</useskill>
+      <spec>Clubs</spec>
+    </weapon>
+    <weapon>
+      <id>21f151ea-27d4-5671-a0fb-d311462111d2</id>
+      <name>Brass Knuckles</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>-4</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>0</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>2</avail>
+      <cost>50</cost>
+      <source>SW1938</source>
+      <page>85</page>
+      <useskill>Clubs</useskill>
+      <spec>Clubs</spec>
+    </weapon>
+    <weapon>
+      <id>bac822f3-1588-5eb8-980b-3136043214d7</id>
+      <name>Truncheon</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>-2</conceal>
+      <accuracy>5</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>0</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>3</avail>
+      <cost>80</cost>
+      <source>SW1938</source>
+      <page>86</page>
+      <useskill>Clubs</useskill>
+      <spec>Clubs</spec>
+    </weapon>
+    <weapon>
+      <id>0cf69609-6283-5a42-a0e6-2ef9845083ef</id>
+      <name>Sledgehammer</name>
+      <category>SW1938 – Melee</category>
+      <type>Melee</type>
+      <conceal>4</conceal>
+      <accuracy>3</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+4)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4</avail>
+      <cost>200</cost>
+      <source>SW1938</source>
+      <page>87</page>
+      <useskill>Clubs</useskill>
+      <spec>Clubs</spec>
+    </weapon>
+    <weapon>
+      <id>b425f4f4-48a4-5a02-9f70-97a37dcbbeb4</id>
+      <name>Flammenwerfer 35</name>
+      <category>SW1938 – Flamethrowers</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-4</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>6(c)</ammo>
+      <avail>14F</avail>
+      <cost>2000</cost>
+      <source>SW1938</source>
+      <page>88</page>
+      <range>Flamethrowers</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>3a24ee1b-5c03-5aad-992e-1bd7d165a4a1</id>
+      <name>Flamethrower No.2</name>
+      <category>SW1938 – Flamethrowers</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-6</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>14F</avail>
+      <cost>2200</cost>
+      <source>SW1938</source>
+      <page>89</page>
+      <range>Flamethrowers</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>311bbd90-09c2-5f2a-a79a-c97436fab6ca</id>
+      <name>Panzerbüchse 39</name>
+      <category>SW1938 – Anti-Tank Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-5</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>18F</avail>
+      <cost>6000</cost>
+      <source>SW1938</source>
+      <page>90</page>
+      <range>Assault Cannons</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>6b7f250f-4ca5-561a-bde1-336f664b87c0</id>
+      <name>Boys Anti-Tank Rifle</name>
+      <category>SW1938 – Anti-Tank Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-4</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(c)</ammo>
+      <avail>16F</avail>
+      <cost>5000</cost>
+      <source>SW1938</source>
+      <page>91</page>
+      <range>Assault Cannons</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>3ba893a5-8b15-5820-b9fc-6739fde460c4</id>
+      <name>PTRD-41</name>
+      <category>SW1938 – Anti-Tank Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>13P</damage>
+      <ap>-6</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>18F</avail>
+      <cost>7000</cost>
+      <source>SW1938</source>
+      <page>92</page>
+      <range>Assault Cannons</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>a4e7f176-0183-5f03-bb99-f7cb7f476a25</id>
+      <name>Granatwerfer 34</name>
+      <category>SW1938 – Mortars</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>Grenade</damage>
+      <ap>Grenade</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>16F</avail>
+      <cost>4000</cost>
+      <source>SW1938</source>
+      <page>93</page>
+      <range>Grenade Launchers</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>1007ae6d-62c0-517f-ba40-52b80079b2ee</id>
+      <name>2-inch Mortar</name>
+      <category>SW1938 – Mortars</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>Grenade</damage>
+      <ap>Grenade</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>14F</avail>
+      <cost>2500</cost>
+      <source>SW1938</source>
+      <page>94</page>
+      <range>Grenade Launchers</range>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>e0e07abe-0236-5adb-8f4b-3d7678465620</id>
       <name>Tesla Rifle Mk. I</name>
-      <category>Exotic Ranged Weapons</category>
+      <category>SW1938 – Tesla &amp; Occult</category>
       <type>Ranged</type>
       <conceal>8</conceal>
       <accuracy>7</accuracy>
@@ -208,11 +1916,89 @@
       <avail>20F</avail>
       <cost>25000</cost>
       <source>SW1938</source>
-      <page>1</page>
+      <page>102</page>
+      <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
-      <useskillspec>Tesla Weapons</useskillspec>
-      <weapontype>energy</weapontype>
     </weapon>
-
+    <weapon>
+      <id>d4f8b807-16ab-5bd7-9394-ac2d1375ec5c</id>
+      <name>Voltaic Carbine</name>
+      <category>SW1938 – Tesla &amp; Occult</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>7S(e)</damage>
+      <ap>-6</ap>
+      <mode>SA</mode>
+      <rc>2</rc>
+      <ammo>8(c)</ammo>
+      <avail>18F</avail>
+      <cost>15000</cost>
+      <source>SW1938</source>
+      <page>103</page>
+      <range>Sporting Rifles</range>
+      <useskill>Exotic Ranged Weapon</useskill>
+    </weapon>
+    <weapon>
+      <id>99ae4ed0-f19f-58be-9660-f007c23aeab0</id>
+      <name>Arc Projector</name>
+      <category>SW1938 – Tesla &amp; Occult</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10S(e)</damage>
+      <ap>-6</ap>
+      <mode>FA</mode>
+      <rc>3</rc>
+      <ammo>10(c)</ammo>
+      <avail>22F</avail>
+      <cost>40000</cost>
+      <source>SW1938</source>
+      <page>104</page>
+      <range>Sporting Rifles</range>
+      <useskill>Exotic Ranged Weapon</useskill>
+    </weapon>
+    <weapon>
+      <id>c1f33367-e901-5a5b-a799-c939ec917868</id>
+      <name>Geist-Werfer</name>
+      <category>SW1938 – Tesla &amp; Occult</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10S(e)</damage>
+      <ap>-4</ap>
+      <mode>SS</mode>
+      <rc>2</rc>
+      <ammo>4(c)</ammo>
+      <avail>24F</avail>
+      <cost>50000</cost>
+      <source>SW1938</source>
+      <page>105</page>
+      <range>Sporting Rifles</range>
+      <useskill>Exotic Ranged Weapon</useskill>
+    </weapon>
+    <weapon>
+      <id>d84e226d-aa67-530d-be97-c86975bac69a</id>
+      <name>Röntgenkanone</name>
+      <category>SW1938 – Tesla &amp; Occult</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-6</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>3(c)</ammo>
+      <avail>24F</avail>
+      <cost>60000</cost>
+      <source>SW1938</source>
+      <page>106</page>
+      <range>Sporting Rifles</range>
+      <useskill>Exotic Ranged Weapon</useskill>
+    </weapon>
   </weapons>
 </chummer>

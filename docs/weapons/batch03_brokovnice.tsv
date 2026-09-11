@@ -1,0 +1,6 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+36	Winchester M1897	Shotguns	12 gauge, pump-action	Klasická americká pumpovací brokovnice.	US	1897	Reálná	Bojová pumpa (bajonet)	11P	-1	SS/SA	0	6(m)	6	4		6R	700	Longarms	bajonet M1917	Bojová verze s lůžkem pro bajonet; delší hlaveň.
+37	Winchester M1912	Shotguns	12 gauge, pump-action	Vylepšená vojenská pumpa.	US	1912	Reálná	Robustní a přesná pumpa	11P	-1	SS/SA	1	6(m)	6	5		7R	900	Longarms	-	Robustní (RC 1) a přesnější; dražší.
+38	Ithaca M37	Shotguns	12 gauge, pump-action	Lehká americká brokovnice.	US	1937	Reálná	Lehká a skrytelná	11P	-1	SS/SA	0	5(m)	5	5		6R	850	Longarms	-	Lehká a obratná (conceal 5); menší zásobník.
+39	Browning Auto-5	Shotguns	12 gauge, samonabíjecí	První úspěšná sériová samonabíjecí brokovnice.	US	1902	Reálná	Samonabíjecí (max DMG)	13P	-1	SA	1	5(m)	6	4		8R	1200	Longarms	-	Nejvyšší DMG mezi brokovnicemi; drahá.
+40	TOZ-34	Shotguns	12/16 gauge, dvojka	Jednoduchá sovětská lovecká brokovnice.	SU	1965	Prototyp	Levná dvojka	12P	-1	SS	0	2(b)	6	5		4R	400	Longarms	-	Lámací dvojka (2 rány), velmi levná; prototyp.

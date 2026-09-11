@@ -1,0 +1,12 @@
+Číslo	Zbraň	SR5 kategorie	Technické informace	Popis	Země	Rok	Typ	Role	DMG	AP	Mode	RC	Ammo	Conceal	Accuracy	Reach	Avail	Cost	Useskill	Defaultní vybavení	Poznámka
+77	Combat Knife	Blades	Čepel 15-18 cm	Bojový nůž pro blízký boj.	US	1918	Reálná	Bojový nůž (rychlý)	({STR}+2)P	-2	0	0	0	-2	6	0	4	300	Blades	-	Vyvážený bojový nůž; nejlepší přesnost mezi noži.
+78	Bayonet	Blades	Čepel 25-40 cm	Bodák nasazovaný na pušku.	DE	1915	Reálná	Bajonet (dostřel)	({STR}+2)P	-2	0	0	0	-1	5	1	3	150	Blades	-	Bodná zbraň (AP -2), dostřel 1 a nízká cena.
+79	Fairbairn-Sykes	Blades	Tenká čepel 18 cm	Komandýnský nůž pro tiché zabití.	UK	1941	Prototyp	Komando nůž (přesný, AP)	({STR}+1)P	-3	0	0	0	-2	7	0	7R	400	Blades	-	Nejvyšší AP a přesnost, ale nižší DMG; vzácný.
+80	Cavalry Saber	Blades	Zakřivená čepel 90 cm	Jízdní šavle.	UK	1908	Reálná	Šavle (dostřel + DMG)	({STR}+3)P	-2	0	0	0	3	5	1	6R	500	Blades	-	Vyšší DMG a dostřel; hůř skrytelná.
+81	Machete	Blades	Čepel 45-60 cm	Sekací nůž na vegetaci.	US	1910	Reálná	Mačeta	({STR}+3)P	-1	0	0	0	1	4	1	5R	250	Blades	-	Silná a štíhlejší (conceal 1); nižší AP.
+82	Axe / Hatchet	Blades	Hlava + topůrko	Sekera / ruční sekyrka.	DE	1900	Reálná	Sekyra	({STR}+3)P	-2	0	0	0	3	4	1	4	150	Blades	-	Vyšší AP za nízkou cenu; objemnější (conceal 3).
+83	Entrenching Tool	Clubs	Skládací lopatka	Polní lopatka používaná v boji zblízka.	DE	1915	Reálná	Polní lopatka (těžká)	({STR}+3)P	-1	0	0	0	1	4	1	3	200	Clubs	-	Robustní improvizovaná zbraň; nízká cena.
+84	Trench Club	Clubs	Dřevěná palice s hlavicí	Zákopový kyj z první světové války.	DE	1915	Reálná	Zákopový kyj	({STR}+3)P	0	0	0	0	0	4	1	4	100	Clubs	-	Tupý, levný a skrytelný; bez AP.
+85	Brass Knuckles	Clubs	Kovové klouby	Boxer pro pěstní boj.	US	1900	Reálná	Boxer (max skrytý)	({STR}+1)P	0	0	0	0	-4	5	0	2	50	Clubs	-	Nejskrytelnější zbraň (conceal -4); nízký DMG.
+86	Truncheon	Clubs	Dřevěný/kovový obušek	Policejní obušek.	UK	1900	Reálná	Obušek	({STR}+2)P	0	0	0	0	-2	5	1	3	80	Clubs	-	Vyvážený a skrytelný; nízká cena.
+87	Sledgehammer	Clubs	Těžké kladivo	Perlík / těžké kladivo.	DE	1900	Reálná	Perlík (max DMG)	({STR}+4)P	-2	0	0	0	4	3	1	4	200	Clubs	-	Nejvyšší DMG mezi chladnými; pomalý a neohrabaný (Acc 3), těžký.
