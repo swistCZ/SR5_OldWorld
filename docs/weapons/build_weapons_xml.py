@@ -7,9 +7,12 @@ aby se v Chummeru daly filtrovat oddelene. Kazda kategorie zrcadli atributy
 Kazda zbran dostane explicitni <range>, protoze vlastni kategorie nejsou
 v ranges.xml.
 
+Granaty (kategorie "Gear") zustavaji kategorii "Gear" jako v SR5 - pristupuji
+se pres Gear (addweapon), ne pres seznam zbrani.
+
 Pouziti: python3 build_weapons_xml.py
 """
-import csv, uuid, os, re
+import csv, uuid, os
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -51,6 +54,13 @@ MAP = {
     "Exotic Ranged Weapons": ("SW1938 – Tesla & Occult",  dict(type="exotic", blackmarket="Weapons"), "Sporting Rifles"),
 }
 
+# Granaty: zustavaji "Gear" (jako v SR5), pristupuje se pres Gear
+GRENADE_RANGE = "Standard Grenade"
+
+# Weapontype pro settingove zbrane (jinak fallback z kategorie)
+TESLA_CAT = "SW1938 – Tesla & Occult"
+WEAPONTYPE_OVERRIDE = {"Geist-Werfer": "occult"}
+
 
 def guid(name):
     return str(uuid.uuid5(GUID_NS, name))
@@ -72,18 +82,19 @@ def main():
     rows = load_rows()
     used_cats = {}
     weapons = []
-    skipped = []
+    grenades = []
 
     for r in rows:
         cat = r["SR5 kategorie"].strip()
+        if cat == "Gear":
+            grenades.append(r)
+            continue
         if cat not in MAP:
-            skipped.append(r["Zbraň"])
             continue
         custom_cat, attrs, rng = MAP[cat]
         used_cats[custom_cat] = attrs
         weapons.append((r, custom_cat, rng))
 
-    # sestav XML
     root = ET.Element("chummer")
 
     cats_el = ET.SubElement(root, "categories")
@@ -91,42 +102,66 @@ def main():
         ET.SubElement(cats_el, "category", used_cats[cat]).text = cat
 
     weapons_el = ET.SubElement(root, "weapons")
+
+    def add(w, tag, val):
+        if val is None:
+            return
+        val = str(val).strip()
+        if val == "":
+            return
+        ET.SubElement(w, tag).text = val
+
+    # normalni zbrane
     for r, custom_cat, rng in weapons:
         name = r["Zbraň"].strip()
         w = ET.SubElement(weapons_el, "weapon")
-
-        def add(tag, val):
-            if val is None:
-                return
-            val = str(val).strip()
-            if val == "":
-                return
-            ET.SubElement(w, tag).text = val
-
-        add("id", guid(name))
-        add("name", name)
-        add("category", custom_cat)
-        # ranged vs melee
-        add("type", "Melee" if custom_cat == "SW1938 – Melee" else "Ranged")
-        add("conceal", r["Conceal"])
-        add("accuracy", r["Accuracy"])
-        add("reach", r["Reach"] if r["Reach"].strip() else "0")
-        add("damage", r["DMG"])
-        add("ap", r["AP"])
-        add("mode", r["Mode"])
-        add("rc", r["RC"])
-        add("ammo", r["Ammo"])
-        add("avail", r["Avail"])
-        add("cost", r["Cost"])
-        add("source", SOURCE)
-        add("page", r["Číslo"])
+        add(w, "id", guid(name))
+        add(w, "name", name)
+        add(w, "category", custom_cat)
+        add(w, "type", "Melee" if custom_cat == "SW1938 – Melee" else "Ranged")
+        add(w, "conceal", r["Conceal"])
+        add(w, "accuracy", r["Accuracy"])
+        add(w, "reach", r["Reach"] if r["Reach"].strip() else "0")
+        add(w, "damage", r["DMG"])
+        add(w, "ap", r["AP"])
+        add(w, "mode", r["Mode"])
+        add(w, "rc", r["RC"])
+        add(w, "ammo", r["Ammo"])
+        add(w, "avail", r["Avail"])
+        add(w, "cost", r["Cost"])
+        add(w, "source", SOURCE)
+        add(w, "page", r["Číslo"])
         if rng:
-            add("range", rng)
-        add("useskill", r["Useskill"])
+            add(w, "range", rng)
+        add(w, "useskill", r["Useskill"])
         if custom_cat == "SW1938 – Melee":
-            add("spec", r["Useskill"])  # Blades / Clubs
+            add(w, "spec", r["Useskill"])
+        if custom_cat == TESLA_CAT:
+            add(w, "weapontype", WEAPONTYPE_OVERRIDE.get(name, "tesla"))
 
-    # zapis s hlavickou
+    # granaty (kategorie Gear, jako v SR5)
+    for r in grenades:
+        name = r["Zbraň"].strip()
+        w = ET.SubElement(weapons_el, "weapon")
+        add(w, "id", guid(name))
+        add(w, "name", name)
+        add(w, "category", "Gear")
+        add(w, "type", "Ranged")
+        add(w, "conceal", r["Conceal"])
+        add(w, "accuracy", r["Accuracy"])
+        add(w, "reach", r["Reach"] if r["Reach"].strip() else "0")
+        add(w, "damage", r["DMG"])
+        add(w, "ap", r["AP"])
+        add(w, "mode", r["Mode"])
+        add(w, "rc", r["RC"])
+        add(w, "ammo", r["Ammo"])
+        add(w, "avail", r["Avail"])
+        add(w, "cost", r["Cost"])
+        add(w, "source", SOURCE)
+        add(w, "page", r["Číslo"])
+        add(w, "range", GRENADE_RANGE)
+        add(w, "useskill", r["Useskill"])
+
     header = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         "<!--\n"
@@ -136,16 +171,13 @@ def main():
         "-->\n"
     )
     ET.indent(root, space="  ")
-    body = ET.tostring(root, encoding="unicode")
     with open(OUT, "w", encoding="utf-8") as f:
-        f.write(header + body + "\n")
+        f.write(header + ET.tostring(root, encoding="unicode") + "\n")
 
+    total = len(weapons) + len(grenades)
     print(f"Zapsano: {OUT}")
-    print(f"Zbrani: {len(weapons)} | kategorii: {len(used_cats)}")
-    if skipped:
-        print(f"Preskoceno (kategorie mimo mapu): {skipped}")
-    # kontrola unikatnosti GUID
-    ids = [guid(r["Zbraň"].strip()) for r, _, _ in weapons]
+    print(f"Zbrani: {len(weapons)} + granatu: {len(grenades)} = {total} | kategorii: {len(used_cats)}")
+    ids = [guid(r["Zbraň"].strip()) for r, _, _ in weapons] + [guid(r["Zbraň"].strip()) for r in grenades]
     print("GUID unikatni:", len(ids) == len(set(ids)))
 
 

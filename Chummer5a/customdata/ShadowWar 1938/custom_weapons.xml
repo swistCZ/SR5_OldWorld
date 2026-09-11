@@ -1919,6 +1919,7 @@
       <page>102</page>
       <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>tesla</weapontype>
     </weapon>
     <weapon>
       <id>d4f8b807-16ab-5bd7-9394-ac2d1375ec5c</id>
@@ -1939,6 +1940,7 @@
       <page>103</page>
       <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>tesla</weapontype>
     </weapon>
     <weapon>
       <id>99ae4ed0-f19f-58be-9660-f007c23aeab0</id>
@@ -1959,6 +1961,7 @@
       <page>104</page>
       <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>tesla</weapontype>
     </weapon>
     <weapon>
       <id>c1f33367-e901-5a5b-a799-c939ec917868</id>
@@ -1979,6 +1982,7 @@
       <page>105</page>
       <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>occult</weapontype>
     </weapon>
     <weapon>
       <id>d84e226d-aa67-530d-be97-c86975bac69a</id>
@@ -1999,6 +2003,147 @@
       <page>106</page>
       <range>Sporting Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>tesla</weapontype>
+    </weapon>
+    <weapon>
+      <id>13d03448-6ccb-5199-b26b-547cd2551506</id>
+      <name>Stielhandgranate 24</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>16P (-2/m)</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>10F</avail>
+      <cost>100</cost>
+      <source>SW1938</source>
+      <page>95</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>6829c23d-884a-5930-98f5-9eb05a0a3abc</id>
+      <name>Mills Bomb No.36</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>18P(f) (-1/m)</damage>
+      <ap>+5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>100</cost>
+      <source>SW1938</source>
+      <page>96</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>dcb0167f-7430-54af-b61e-2237c99d7b77</id>
+      <name>F1</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>16P(f) (-1/m)</damage>
+      <ap>+5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>10F</avail>
+      <cost>80</cost>
+      <source>SW1938</source>
+      <page>97</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>50c30b82-0f14-54c2-807d-42f1bc184966</id>
+      <name>Mk 2</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>17P(f) (-1/m)</damage>
+      <ap>+5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>10F</avail>
+      <cost>90</cost>
+      <source>SW1938</source>
+      <page>98</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>704681aa-7879-5b62-870e-16b7357271b5</id>
+      <name>Molotov Cocktail</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P (-4/m)</damage>
+      <ap>-6</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>6F</avail>
+      <cost>20</cost>
+      <source>SW1938</source>
+      <page>99</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>ccd017b4-0258-5567-aa41-f3ef1cac5650</id>
+      <name>Sticky Bomb No.74</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>16P (-2/m)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>12F</avail>
+      <cost>150</cost>
+      <source>SW1938</source>
+      <page>100</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>a4f13408-56d2-5858-a858-09f888218a9c</id>
+      <name>Satchel Charge</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>20P (-2/m)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>12F</avail>
+      <cost>250</cost>
+      <source>SW1938</source>
+      <page>101</page>
+      <range>Standard Grenade</range>
+      <useskill>Demolitions</useskill>
     </weapon>
   </weapons>
 </chummer>
