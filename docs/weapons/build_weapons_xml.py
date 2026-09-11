@@ -61,9 +61,25 @@ GRENADE_RANGE = "Standard Grenade"
 TESLA_CAT = "SW1938 – Tesla & Occult"
 WEAPONTYPE_OVERRIDE = {"Geist-Werfer": "occult"}
 
+# Doplňky na zbraně
+ACCESSORY_TSV = os.path.join(HERE, "..", "accessories", "batchAC1_doplnky.tsv")
+GUID_NS_ACC = uuid.uuid5(uuid.NAMESPACE_URL, "shadowwar1938-accessory")
+
 
 def guid(name):
     return str(uuid.uuid5(GUID_NS, name))
+
+
+def guid_acc(name):
+    return str(uuid.uuid5(GUID_NS_ACC, name))
+
+
+def load_accessories():
+    path = os.path.normpath(ACCESSORY_TSV)
+    with open(path, encoding="utf-8") as f:
+        reader = csv.reader(f, delimiter="\t")
+        header = next(reader)
+        return [dict(zip(header, r)) for r in reader]
 
 
 def load_rows():
@@ -162,10 +178,30 @@ def main():
         add(w, "range", GRENADE_RANGE)
         add(w, "useskill", r["Useskill"])
 
+    # doplnky na zbrane
+    accessories = load_accessories()
+    accs_el = ET.SubElement(root, "accessories")
+    for r in accessories:
+        name = r["Doplňek"].strip()
+        a = ET.SubElement(accs_el, "accessory")
+        add(a, "id", guid_acc(name))
+        add(a, "name", name)
+        add(a, "mount", r["Mount"] if r["Mount"].strip() != "-" else "")
+        add(a, "avail", r["Avail"])
+        add(a, "cost", r["Cost"])
+        add(a, "source", SOURCE)
+        add(a, "page", r["Číslo"])
+        add(a, "rating", "0")
+        for col, tag in (("Accuracy", "accuracy"), ("AP", "ap"), ("Damage", "damage"),
+                         ("RC", "rc"), ("Conceal", "conceal")):
+            val = r[col].strip()
+            if val and val != "-":
+                add(a, tag, val)
+
     header = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         "<!--\n"
-        "  SHADOW WAR 1938 - custom weapons (generated from docs/weapons/*.tsv).\n"
+        "  SHADOW WAR 1938 - custom weapons + accessories (from docs/weapons/*.tsv).\n"
         "  Source book: SW1938. Custom categories \"SW1938 - ...\" for easy filtering.\n"
         "  Do not edit by hand; edit the TSV sheets and re-run build_weapons_xml.py.\n"
         "-->\n"
@@ -177,6 +213,7 @@ def main():
     total = len(weapons) + len(grenades)
     print(f"Zapsano: {OUT}")
     print(f"Zbrani: {len(weapons)} + granatu: {len(grenades)} = {total} | kategorii: {len(used_cats)}")
+    print(f"Doplnku: {len(accessories)}")
     ids = [guid(r["Zbraň"].strip()) for r, _, _ in weapons] + [guid(r["Zbraň"].strip()) for r in grenades]
     print("GUID unikatni:", len(ids) == len(set(ids)))
 

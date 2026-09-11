@@ -94,24 +94,31 @@ zneškodnění několika cílů.
 ## 105. Geist-Werfer (Německo) — okultní zbraň
 
 **Princip.** Nikoli čistě elektrická zbraň: kombinace **stříbrných cívek, geometrických symbolů
-a okultních součástek**. Působí na **nehmotné entity** — duchy, přízraky, entity z bojišť
-první světové války (viz setting, kap. VII).
+a okultních součástek**, která narušuje **hmotnou manifestaci** nehmotných bytostí.
+
+**Důležité — astrální oddělení.** Meatworld a astrál jsou oddělené. Geist-Werfer je **fyzická
+zbraň**, takže působí **pouze na materializované entity** (bytosti, které se projevují ve
+fyzickém světě). Na entity, které zůstávají **jen v astrálu**, nemá žádný účinek — stejně jako
+žádná jiná fyzická zbraň.
 
 **Pravidla.**
 - Útok: `Exotic Ranged Weapon` (spec *Occult Weapons*).
-- **Proti nehmotným entitám:** poškození **10S(e)**, AP **‑4**, a cíl **nemůže použít svou
-  nehmotnost jako obranu** (zásah funguje i přes hmotnostní stav). Může entitu **vyhnat** —
-  při dostatečném počtu net‑hitů GM může rozhodnout, že entita opustí scénu.
-- **Proti hmotným cílům:** zbraň je **téměř neúčinná** (maximálně 2S omráčení, žádný AP) —
+- **Proti materializovaným entitám:** poškození **10S(e)**, AP **‑4**. Zásah narušuje
+  manifestaci — při dobrém zásahu může GM nechat entitu testovat proti **vyhnání** (entita se
+  dematerializuje / opustí scénu).
+- **Proti astrálním (nematerializovaným) entitám:** **žádný účinek** — fyzická zbraň na astrál
+  nedosáhne.
+- **Proti hmotným cílům (lidé):** zbraň je **téměř neúčinná** (maximálně 2S omráčení, žádný AP) —
   není to bojová zbraň proti lidem.
 - `SS`, RC 2, přesnost 5, 4 výboje.
 - **Riziko:** okultní aparatura přitahuje pozornost entit. Každé použití může přivolat další
   bytost (GM hod).
 
-**Využití.** Jediný prostředek, jak čelit duchům jinak než útěkem. Klíčový pro zápletky
-s entitami z Verdunu, Yper apod.
+**Využití.** Prostředek, jak čelit **materializovaným** duchům — např. entitám z Verdunu, které
+se zjevují na bojištích. Na čistě astrální hrozby platí jen magie/astrální obrana.
 
-**Nedostatky.** Velmi vzácný (`24F`, 50 000), prakticky nepoužitelný proti lidem, nebezpečný.
+**Nedostatky.** Velmi vzácný (`24F`, 50 000), nepoužitelný proti lidem i proti astrálním
+entitám, nebezpečný.
 
 ---
 
