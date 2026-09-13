@@ -1,0 +1,33 @@
+Číslo	Kvalita	Kategorie	Karma	Max	Prerekvizita	Popis	BonusTyp	BonusCil	BonusHodnota	Podminka	Poznámka
+1	Veterán Velké války	Positive	8			Prošel zákopy 1. světové války.	initiative		1		-
+1	Veterán Velké války	Positive	8			Prošel zákopy 1. světové války.	skillcategory	Combat Active	2	v boji	-
+2	Ocelová vůle	Positive	8			Mimořádná odolnost vůči manipulaci a magii.	spellresistance		2		-
+2	Ocelová vůle	Positive	8			Mimořádná odolnost vůči manipulaci a magii.	judgeintentionsdefense		2		-
+3	Zákopový bojovník	Positive	5			Mistr boje v krytu a zákopech.	skillcategory	Combat Active	2	v krytu	-
+4	Technický talent	Positive	4			Vrozený talent pro stroje a techniku.	skillcategory	Technical Active	2		-
+5	Jazykový talent	Positive	5			Snadno se učí jazyky.	skillcategory	Language	1		-
+6	Přirozený vůdce	Positive	6			Rodilý velitel.	specificskill	Leadership	2		-
+7	Bystré oči	Positive	4			Mimořádně bystrý zrak.	specificskill	Perception	2		-
+8	Rychlé reflexy	Positive	8			Bleskurychlé reakce.	initiative		2		-
+9	Odolný organismus	Positive	5			Odolný vůči jedům a nemocem.	toxincontactresist		2		-
+9	Odolný organismus	Positive	5			Odolný vůči jedům a nemocem.	pathogencontactresist		2		-
+10	Stříbrný jazyk	Positive	6			Přesvědčovací talent.	specificskill	Negotiation	2		-
+11	Hrdost na metatyp	Positive	4			Hrdost na svůj metatyp.	skillcategory	Social Active	2	s vlastním metatypem	-
+12	Polní medik	Positive	4			Vycvičený v polní medicíně.	specificskill	First Aid	2		-
+13	Odolnost proti elektřině	Positive	5			Odolný vůči elektrickým výbojům.	damageresistance		1	vs elektřina	Setting
+14	Okultní citlivost	Positive	6			Tuší magické jevy v okolí.					Setting; bez přímého bonusu (GM)
+15	Zákopový šok	Negative	-8			Trauma z 1. světové války.	skillcategory	Combat Active	-2	pod palbou	-
+16	Předsudek	Negative	-5			Předsudek vůči metatypu.	skillcategory	Social Active	-2	s vybraným metatypem	-
+17	Kodex cti	Negative	-5			Přísný osobní kodex.					GM
+18	Závislost (Pervitin)	Negative	-5			Závislost na stimulantu.					GM
+19	Pronásledovaný	Negative	-8			Někdo ho hledá.					GM
+20	Špatná pověst	Negative	-5			Špatná pověst.	notoriety		2		-
+21	Alergie	Negative	-5			Alergie na látku.					GM
+22	Fobie	Negative	-5			Fobie.					GM
+23	Nevzdělaný	Negative	-5			Bez formálního vzdělání.					GM
+24	Hledaný	Negative	-8			Hledaný policií.					GM
+25	Válečná rána	Negative	-6			Staré zranění omezuje pohyblivost.	specificattribute	AGI	-1		-
+26	Pacifista	Negative	-6			Odmítá zabíjet.					GM
+27	Slabá vůle	Negative	-6			Snadno manipulovatelný.	judgeintentionsdefense		-2		-
+28	Nacionalistický fanatik	Negative	-4			Slepý nacionalismus.	skillcategory	Social Active	-2	s jinými národy	-
+29	Elektrofobie	Negative	-4			Fobie z elektřiny.					Setting; GM

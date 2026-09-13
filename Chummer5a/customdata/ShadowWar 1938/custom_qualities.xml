@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SHADOW WAR 1938 - custom qualities (generated from docs/qualities/*.tsv).
+  Categories stay standard (Positive/Negative) because Chummer derives
+  the quality type from the category. Source: SW1938.
+  Do not edit by hand; edit the TSV and re-run build_qualities_xml.py.
+-->
+<chummer>
+  <qualities>
+    <quality>
+      <id>789d2afd-de39-5c42-bcf8-805b39d8cfb9</id>
+      <name>Veterán Velké války</name>
+      <karma>8</karma>
+      <category>Positive</category>
+      <bonus>
+        <initiative precedence="0">1</initiative>
+        <skillcategory>
+          <name>Combat Active</name>
+          <bonus>2</bonus>
+          <condition>v boji</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>410ceaf2-571e-5cea-84d0-ec7e1f189609</id>
+      <name>Ocelová vůle</name>
+      <karma>8</karma>
+      <category>Positive</category>
+      <bonus>
+        <spellresistance>2</spellresistance>
+        <judgeintentionsdefense>2</judgeintentionsdefense>
+      </bonus>
+      <source>SW1938</source>
+      <page>2</page>
+    </quality>
+    <quality>
+      <id>702ebaf0-3909-50c5-8ca5-971e0c7fbc79</id>
+      <name>Zákopový bojovník</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <bonus>
+        <skillcategory>
+          <name>Combat Active</name>
+          <bonus>2</bonus>
+          <condition>v krytu</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>3</page>
+    </quality>
+    <quality>
+      <id>c947c9e0-a482-586f-9e8d-c9ceca211e1b</id>
+      <name>Technický talent</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <bonus>
+        <skillcategory>
+          <name>Technical Active</name>
+          <bonus>2</bonus>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>4</page>
+    </quality>
+    <quality>
+      <id>8196dcdc-b0a8-5415-9c94-7fd55d5ae8bf</id>
+      <name>Jazykový talent</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <bonus>
+        <skillcategory>
+          <name>Language</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>5</page>
+    </quality>
+    <quality>
+      <id>e99da45e-d633-521a-99f7-ea19b882f0c6</id>
+      <name>Přirozený vůdce</name>
+      <karma>6</karma>
+      <category>Positive</category>
+      <bonus>
+        <specificskill>
+          <name>Leadership</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>SW1938</source>
+      <page>6</page>
+    </quality>
+    <quality>
+      <id>0e57a298-2116-553e-97f8-2413f2dc5dac</id>
+      <name>Bystré oči</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <bonus>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>SW1938</source>
+      <page>7</page>
+    </quality>
+    <quality>
+      <id>3b527c79-7dfe-5478-b0c1-fd88393dbaec</id>
+      <name>Rychlé reflexy</name>
+      <karma>8</karma>
+      <category>Positive</category>
+      <bonus>
+        <initiative precedence="0">2</initiative>
+      </bonus>
+      <source>SW1938</source>
+      <page>8</page>
+    </quality>
+    <quality>
+      <id>a9928437-6c33-569d-ba40-6bf8e0d90aca</id>
+      <name>Odolný organismus</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <bonus>
+        <toxincontactresist>2</toxincontactresist>
+        <pathogencontactresist>2</pathogencontactresist>
+      </bonus>
+      <source>SW1938</source>
+      <page>9</page>
+    </quality>
+    <quality>
+      <id>0b190b44-599c-514d-8aaa-63ce8cbe586c</id>
+      <name>Stříbrný jazyk</name>
+      <karma>6</karma>
+      <category>Positive</category>
+      <bonus>
+        <specificskill>
+          <name>Negotiation</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>SW1938</source>
+      <page>10</page>
+    </quality>
+    <quality>
+      <id>9a843bcd-4884-55fa-b93b-ed8cb253cab2</id>
+      <name>Hrdost na metatyp</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>2</bonus>
+          <condition>s vlastním metatypem</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>11</page>
+    </quality>
+    <quality>
+      <id>dc7958d3-b646-5c18-a6e7-453f3d2ee758</id>
+      <name>Polní medik</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <bonus>
+        <specificskill>
+          <name>First Aid</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>SW1938</source>
+      <page>12</page>
+    </quality>
+    <quality>
+      <id>d196d8d1-696d-57e2-886a-73cffc8992a7</id>
+      <name>Odolnost proti elektřině</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <bonus>
+        <damageresistance>1<condition>vs elektřina</condition>
+        </damageresistance>
+      </bonus>
+      <source>SW1938</source>
+      <page>13</page>
+    </quality>
+    <quality>
+      <id>59cb0e15-2fd1-51f7-8938-0dec9ca97dbf</id>
+      <name>Okultní citlivost</name>
+      <karma>6</karma>
+      <category>Positive</category>
+      <source>SW1938</source>
+      <page>14</page>
+    </quality>
+    <quality>
+      <id>d9731c59-be74-59f7-a2bb-824e6d3c2ac1</id>
+      <name>Zákopový šok</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <bonus>
+        <skillcategory>
+          <name>Combat Active</name>
+          <bonus>-2</bonus>
+          <condition>pod palbou</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>15</page>
+    </quality>
+    <quality>
+      <id>1a044233-366a-509b-b0ed-0a4bd6c3f734</id>
+      <name>Předsudek</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>-2</bonus>
+          <condition>s vybraným metatypem</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>16</page>
+    </quality>
+    <quality>
+      <id>ce986782-e38c-506c-a6ff-f8d698ac3b68</id>
+      <name>Kodex cti</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>17</page>
+    </quality>
+    <quality>
+      <id>4daa4bb0-d0ec-58de-a238-aa054ff65fed</id>
+      <name>Závislost (Pervitin)</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>18</page>
+    </quality>
+    <quality>
+      <id>b2ac1b58-04fa-5e46-ba32-5a95887a5adf</id>
+      <name>Pronásledovaný</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>19</page>
+    </quality>
+    <quality>
+      <id>b0075575-50e7-5683-88c9-e7095ca2764c</id>
+      <name>Špatná pověst</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <notoriety>2</notoriety>
+      </bonus>
+      <source>SW1938</source>
+      <page>20</page>
+    </quality>
+    <quality>
+      <id>dcfd686e-8664-5556-89e4-557370857433</id>
+      <name>Alergie</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>21</page>
+    </quality>
+    <quality>
+      <id>f55f20dc-fd8a-565e-8561-4e93e2cde62d</id>
+      <name>Fobie</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>22</page>
+    </quality>
+    <quality>
+      <id>c27a867d-d167-5d1a-b37c-a93a523a675e</id>
+      <name>Nevzdělaný</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>23</page>
+    </quality>
+    <quality>
+      <id>748ed11c-45f8-560b-9987-0e83722b0f6b</id>
+      <name>Hledaný</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>24</page>
+    </quality>
+    <quality>
+      <id>a17c1551-b0fc-5443-83ce-9dc60271f2a7</id>
+      <name>Válečná rána</name>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>-1</val>
+        </specificattribute>
+      </bonus>
+      <source>SW1938</source>
+      <page>25</page>
+    </quality>
+    <quality>
+      <id>028fdbf6-00b8-5c5b-af77-1a643816d1d1</id>
+      <name>Pacifista</name>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>26</page>
+    </quality>
+    <quality>
+      <id>e16c7370-1461-5c02-ba04-74d4cdd4107d</id>
+      <name>Slabá vůle</name>
+      <karma>-6</karma>
+      <category>Negative</category>
+      <bonus>
+        <judgeintentionsdefense>-2</judgeintentionsdefense>
+      </bonus>
+      <source>SW1938</source>
+      <page>27</page>
+    </quality>
+    <quality>
+      <id>f330e296-b7c2-5b3b-84c8-f6cd193d0a6d</id>
+      <name>Nacionalistický fanatik</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>-2</bonus>
+          <condition>s jinými národy</condition>
+        </skillcategory>
+      </bonus>
+      <source>SW1938</source>
+      <page>28</page>
+    </quality>
+    <quality>
+      <id>81c9c4b9-b84a-5273-acd3-abcda44d38a5</id>
+      <name>Elektrofobie</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <source>SW1938</source>
+      <page>29</page>
+    </quality>
+  </qualities>
+</chummer>

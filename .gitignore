@@ -18,6 +18,16 @@ Chummer5a/customdata/*
 !Chummer5a/customdata/ShadowWar 1938/
 !Chummer5a/customdata/ShadowWar 1938/*
 
+# Servisní a soukromé soubory Chummeru (logy, uložené postavy, profily).
+# (V gitu jsou stejně jen přes customdata, zde pro jistotu.)
+Chummer5a/logs/
+Chummer5a/saves/
+Chummer5a/settings/
+
+# Vytvořené release balíčky (ZIP s Chummerem) — patří do GitHub Releases
+dist/
+*.zip
+
 # Dočasné a systémové soubory
 *.tmp
 *.bak
