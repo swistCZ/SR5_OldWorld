@@ -8,6 +8,7 @@ Tento repozitář obsahuje:
 - **vlastní datový balíček `ShadowWar 1938`** pro Chummer 5e
   (zbraně, zbroj, vybavení, kvality, vozidla, knihy a kategorie),
 - zdrojové tabulky a skripty, ze kterých se XML generuje (`docs/`),
+- návrhy a poznámky k vývoji (`docs/superpowers/specs/`, `docs/notes/`),
 - settingový dokument `WW II - shadow setting.md`,
 - konvence práce pro vývoj (`AGENTS.md`).
 
@@ -50,6 +51,8 @@ Chummer5a/customdata/ShadowWar 1938/   # vlastní balíček (verzovaný)
   custom_qualities.xml  # kvality
   custom_vehicles.xml   # vozidla
 docs/                   # zdrojové tabulky + generovací skripty
+docs/superpowers/specs/ # schválené návrhy (design)
+docs/notes/             # poznámky k custom záznamům
 WW II - shadow setting.md
 ```
 
@@ -58,6 +61,10 @@ WW II - shadow setting.md
 Veškerý vlastní obsah patří do `Chummer5a/customdata/ShadowWar 1938/`,
 **nikdy do oficiálního `Chummer5a/data/`**. Podrobnosti a konvence viz
 [`AGENTS.md`](AGENTS.md).
+
+Nové sekce nejdřív navrhujeme ve `docs/superpowers/specs/` a poznámky ukládáme
+do `docs/notes/`. Aktuálně je navržená, zatím neimplementovaná dávka
+**výbušniny a ženijní materiál** (`docs/superpowers/specs/2026-09-13-...`).
 
 Chummer 5e je open source (GPLv3):
 <https://github.com/chummer5a/chummer5a>
